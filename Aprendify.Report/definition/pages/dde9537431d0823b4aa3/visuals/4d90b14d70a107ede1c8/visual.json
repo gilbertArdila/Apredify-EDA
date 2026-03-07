@@ -1,0 +1,175 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.6.0/schema.json",
+  "name": "4d90b14d70a107ede1c8",
+  "position": {
+    "x": 917.5062344139651,
+    "y": 29.625935162094763,
+    "z": 0,
+    "height": 171.47132169576059,
+    "width": 348.32917705735662,
+    "tabOrder": 0
+  },
+  "visual": {
+    "visualType": "tableEx",
+    "query": {
+      "queryState": {
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Encuesta"
+                    }
+                  },
+                  "Property": "Media_antiguedad"
+                }
+              },
+              "queryRef": "Encuesta.Media_antiguedad",
+              "nativeQueryRef": "Media",
+              "displayName": "Media"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Encuesta"
+                    }
+                  },
+                  "Property": "Mediana_antiguedad"
+                }
+              },
+              "queryRef": "Encuesta.Mediana_antiguedad",
+              "nativeQueryRef": "Mediana",
+              "displayName": "Mediana"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Encuesta"
+                    }
+                  },
+                  "Property": "Moda_antiguedad"
+                }
+              },
+              "queryRef": "Encuesta.Moda_antiguedad",
+              "nativeQueryRef": "Moda",
+              "displayName": "Moda"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Encuesta"
+                    }
+                  },
+                  "Property": "Rango_antiguedad"
+                }
+              },
+              "queryRef": "Encuesta.Rango_antiguedad",
+              "nativeQueryRef": "Rango",
+              "displayName": "Rango"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Encuesta"
+                    }
+                  },
+                  "Property": "Varianza_antiguedad"
+                }
+              },
+              "queryRef": "Encuesta.Varianza_antiguedad",
+              "nativeQueryRef": "Varianza",
+              "displayName": "Varianza"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Encuesta"
+                    }
+                  },
+                  "Property": "DesvStd_antiguedad"
+                }
+              },
+              "queryRef": "Encuesta.DesvStd_antiguedad",
+              "nativeQueryRef": "DesvStd",
+              "displayName": "DesvStd"
+            }
+          ]
+        }
+      }
+    },
+    "visualContainerObjects": {
+      "title": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Estadística descriptiva — Antigüedad de usuarios'"
+                }
+              }
+            },
+            "fontFamily": {
+              "expr": {
+                "Literal": {
+                  "Value": "'''Segoe UI'', wf_segoe-ui_normal, helvetica, arial, sans-serif'"
+                }
+              }
+            },
+            "alignment": {
+              "expr": {
+                "Literal": {
+                  "Value": "'center'"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "divider": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "color": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 2,
+                      "Percent": 0
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  }
+}

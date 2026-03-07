@@ -1,0 +1,203 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.6.0/schema.json",
+  "name": "e10c536aec072a3b7490",
+  "position": {
+    "x": 854.96932515337414,
+    "y": 43.190184049079754,
+    "z": 9000,
+    "height": 621.34969325153372,
+    "width": 425.03067484662574,
+    "tabOrder": 9000
+  },
+  "visual": {
+    "visualType": "textbox",
+    "objects": {
+      "general": [
+        {
+          "properties": {
+            "paragraphs": [
+              {
+                "textRuns": [
+                  {
+                    "value": "Interpretación estadística",
+                    "textStyle": {
+                      "fontWeight": "bold"
+                    }
+                  }
+                ],
+                "horizontalTextAlignment": "center"
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "El número promedio de cursos iniciados por los usuarios en la plataforma AprendiFy durante los últimos seis meses es de aproximadamente "
+                  },
+                  {
+                    "value": "4.02 cursos",
+                    "textStyle": {
+                      "fontWeight": "bold"
+                    }
+                  },
+                  {
+                    "value": ", lo que indica que, en promedio, los estudiantes tienden a comenzar "
+                  },
+                  {
+                    "value": "alrededor de cuatro cursos",
+                    "textStyle": {
+                      "fontWeight": "bold"
+                    }
+                  },
+                  {
+                    "value": " dentro del periodo analizado."
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "La "
+                  },
+                  {
+                    "value": "mediana de 4 cursos",
+                    "textStyle": {
+                      "fontWeight": "bold"
+                    }
+                  },
+                  {
+                    "value": " coincide prácticamente con la media, lo que sugiere que la distribución de los datos es relativamente equilibrada y que la mayoría de los usuarios se concentra cerca de este valor central."
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Asimismo, la "
+                  },
+                  {
+                    "value": "moda también corresponde a 4 cursos",
+                    "textStyle": {
+                      "fontWeight": "bold"
+                    }
+                  },
+                  {
+                    "value": ", lo que significa que este es el número de cursos iniciados con mayor frecuencia entre los estudiantes. El hecho de que "
+                  },
+                  {
+                    "value": "media, mediana y moda sean prácticamente iguales",
+                    "textStyle": {
+                      "fontWeight": "bold"
+                    }
+                  },
+                  {
+                    "value": " indica que la distribución de los datos presenta una "
+                  },
+                  {
+                    "value": "forma bastante simétrica",
+                    "textStyle": {
+                      "fontWeight": "bold"
+                    }
+                  },
+                  {
+                    "value": ", sin evidencia de sesgos significativos hacia valores muy altos o muy bajos."
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "El "
+                  },
+                  {
+                    "value": "rango de 9 cursos",
+                    "textStyle": {
+                      "fontWeight": "bold"
+                    }
+                  },
+                  {
+                    "value": " muestra que existe cierta variabilidad en el comportamiento de los estudiantes, con algunos usuarios iniciando pocos cursos y otros iniciando una mayor cantidad dentro del periodo observado."
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Por su parte, la "
+                  },
+                  {
+                    "value": "desviación estándar de 1.89 cursos",
+                    "textStyle": {
+                      "fontWeight": "bold"
+                    }
+                  },
+                  {
+                    "value": " indica una dispersión moderada alrededor del promedio. Esto significa que la mayoría de los estudiantes inicia aproximadamente entre "
+                  },
+                  {
+                    "value": "2 y 6 cursos",
+                    "textStyle": {
+                      "fontWeight": "bold"
+                    }
+                  },
+                  {
+                    "value": " durante los últimos seis meses."
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "En términos generales, estos resultados sugieren que los usuarios de AprendiFy muestran un "
+                  },
+                  {
+                    "value": "nivel relativamente activo de exploración de contenidos",
+                    "textStyle": {
+                      "fontWeight": "bold"
+                    }
+                  },
+                  {
+                    "value": ", iniciando varios cursos dentro de la plataforma. Sin embargo, este comportamiento debe analizarse en conjunto con la "
+                  },
+                  {
+                    "value": "tasa de completitud de cursos",
+                    "textStyle": {
+                      "fontWeight": "bold"
+                    }
+                  },
+                  {
+                    "value": ", ya que iniciar múltiples cursos no necesariamente implica que estos sean finalizados."
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Por esta razón, el número de cursos iniciados se convierte en una variable relevante para analizar su relación con "
+                  },
+                  {
+                    "value": "la tasa de completitud y la satisfacción del estudiante",
+                    "textStyle": {
+                      "fontWeight": "bold"
+                    }
+                  },
+                  {
+                    "value": ", ya que podría indicar patrones de comportamiento como el "
+                  },
+                  {
+                    "value": "abandono de cursos antes de finalizarlos o la exploración de múltiples contenidos sin terminarlos",
+                    "textStyle": {
+                      "fontWeight": "bold"
+                    }
+                  },
+                  {
+                    "value": "."
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  }
+}

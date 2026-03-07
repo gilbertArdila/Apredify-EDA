@@ -1,0 +1,175 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.6.0/schema.json",
+  "name": "e3b7918881b72953126a",
+  "position": {
+    "x": 927.38154613466327,
+    "y": 43.092269326683294,
+    "z": 1000,
+    "height": 122.99251870324188,
+    "width": 346.53366583541145,
+    "tabOrder": 1000
+  },
+  "visual": {
+    "visualType": "tableEx",
+    "query": {
+      "queryState": {
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Encuesta"
+                    }
+                  },
+                  "Property": "Media_frecuencia_uso_horas"
+                }
+              },
+              "queryRef": "Encuesta.Media_frecuencia_uso_horas",
+              "nativeQueryRef": "Media",
+              "displayName": "Media"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Encuesta"
+                    }
+                  },
+                  "Property": "Mediana_frecuencia_uso_horas"
+                }
+              },
+              "queryRef": "Encuesta.Mediana_frecuencia_uso_horas",
+              "nativeQueryRef": "Mediana",
+              "displayName": "Mediana"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Encuesta"
+                    }
+                  },
+                  "Property": "Moda_frecuencia_uso_horas"
+                }
+              },
+              "queryRef": "Encuesta.Moda_frecuencia_uso_horas",
+              "nativeQueryRef": "Moda",
+              "displayName": "Moda"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Encuesta"
+                    }
+                  },
+                  "Property": "Rango_frecuencia_uso_horas"
+                }
+              },
+              "queryRef": "Encuesta.Rango_frecuencia_uso_horas",
+              "nativeQueryRef": "Rango",
+              "displayName": "Rango"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Encuesta"
+                    }
+                  },
+                  "Property": "Varianza_frecuencia_uso_horas"
+                }
+              },
+              "queryRef": "Encuesta.Varianza_frecuencia_uso_horas",
+              "nativeQueryRef": "Varianza",
+              "displayName": "Varianza"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Encuesta"
+                    }
+                  },
+                  "Property": "DesvStd_frecuencia_uso_horas"
+                }
+              },
+              "queryRef": "Encuesta.DesvStd_frecuencia_uso_horas",
+              "nativeQueryRef": "DesvStd",
+              "displayName": "DesvStd"
+            }
+          ]
+        }
+      }
+    },
+    "visualContainerObjects": {
+      "title": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Estadística descriptiva — Frecuencia de uso (horas)'"
+                }
+              }
+            },
+            "fontFamily": {
+              "expr": {
+                "Literal": {
+                  "Value": "'''Segoe UI'', wf_segoe-ui_normal, helvetica, arial, sans-serif'"
+                }
+              }
+            },
+            "alignment": {
+              "expr": {
+                "Literal": {
+                  "Value": "'center'"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "divider": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "color": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 2,
+                      "Percent": 0
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  }
+}

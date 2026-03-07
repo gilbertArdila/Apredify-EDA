@@ -1,0 +1,175 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.6.0/schema.json",
+  "name": "ba959b655ae81cbe21a4",
+  "position": {
+    "x": 0,
+    "y": 43.190184049079754,
+    "z": 8000,
+    "height": 179.6319018404908,
+    "width": 346.50306748466255,
+    "tabOrder": 8000
+  },
+  "visual": {
+    "visualType": "tableEx",
+    "query": {
+      "queryState": {
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Encuesta"
+                    }
+                  },
+                  "Property": "Media_numero_cursos_iniciados"
+                }
+              },
+              "queryRef": "Encuesta.Media_numero_cursos_iniciados",
+              "nativeQueryRef": "Media",
+              "displayName": "Media"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Encuesta"
+                    }
+                  },
+                  "Property": "Mediana_numero_cursos_iniciados"
+                }
+              },
+              "queryRef": "Encuesta.Mediana_numero_cursos_iniciados",
+              "nativeQueryRef": "Mediana",
+              "displayName": "Mediana"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Encuesta"
+                    }
+                  },
+                  "Property": "Moda_numero_cursos_iniciados"
+                }
+              },
+              "queryRef": "Encuesta.Moda_numero_cursos_iniciados",
+              "nativeQueryRef": "Moda",
+              "displayName": "Moda"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Encuesta"
+                    }
+                  },
+                  "Property": "Rango_numero_cursos_iniciados"
+                }
+              },
+              "queryRef": "Encuesta.Rango_numero_cursos_iniciados",
+              "nativeQueryRef": "Rango",
+              "displayName": "Rango"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Encuesta"
+                    }
+                  },
+                  "Property": "Varianza_numero_cursos_iniciados"
+                }
+              },
+              "queryRef": "Encuesta.Varianza_numero_cursos_iniciados",
+              "nativeQueryRef": "Varianza",
+              "displayName": "Varianza"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Encuesta"
+                    }
+                  },
+                  "Property": "DesvStd_numero_cursos_iniciados"
+                }
+              },
+              "queryRef": "Encuesta.DesvStd_numero_cursos_iniciados",
+              "nativeQueryRef": "DesvStd",
+              "displayName": "DesvStd"
+            }
+          ]
+        }
+      }
+    },
+    "visualContainerObjects": {
+      "title": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Estadística descriptiva — Cursos iniciados'"
+                }
+              }
+            },
+            "fontFamily": {
+              "expr": {
+                "Literal": {
+                  "Value": "'''Segoe UI'', wf_segoe-ui_normal, helvetica, arial, sans-serif'"
+                }
+              }
+            },
+            "alignment": {
+              "expr": {
+                "Literal": {
+                  "Value": "'center'"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "divider": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "color": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 2,
+                      "Percent": 0
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  }
+}

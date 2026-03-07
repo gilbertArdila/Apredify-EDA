@@ -1,0 +1,180 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.6.0/schema.json",
+  "name": "d9167380d0178dc090e3",
+  "position": {
+    "x": 32.31920199501247,
+    "y": 500.04987531172065,
+    "z": 1000,
+    "height": 210.07481296758104,
+    "width": 1233.5162094763091,
+    "tabOrder": 1000
+  },
+  "visual": {
+    "visualType": "textbox",
+    "objects": {
+      "general": [
+        {
+          "properties": {
+            "paragraphs": [
+              {
+                "textRuns": [
+                  {
+                    "value": "Interpretación estadística de la antigüedad de los usuarios",
+                    "textStyle": {
+                      "fontWeight": "bold"
+                    }
+                  }
+                ],
+                "horizontalTextAlignment": "center"
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "La antigüedad promedio de los usuarios en AprendiFy es de "
+                  },
+                  {
+                    "value": "aproximadamente 12 meses",
+                    "textStyle": {
+                      "fontWeight": "bold"
+                    }
+                  },
+                  {
+                    "value": ", valor que coincide con la "
+                  },
+                  {
+                    "value": "mediana (12 meses)",
+                    "textStyle": {
+                      "fontWeight": "bold"
+                    }
+                  },
+                  {
+                    "value": ", lo que indica que el centro de la distribución se encuentra alrededor de "
+                  },
+                  {
+                    "value": "un año de permanencia en la plataforma",
+                    "textStyle": {
+                      "fontWeight": "bold"
+                    }
+                  },
+                  {
+                    "value": "."
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "La "
+                  },
+                  {
+                    "value": "moda de 1 mes",
+                    "textStyle": {
+                      "fontWeight": "bold"
+                    }
+                  },
+                  {
+                    "value": " sugiere que existe una proporción importante de usuarios nuevos, lo que evidencia un flujo constante de incorporación de estudiantes. Por otro lado, la "
+                  },
+                  {
+                    "value": "desviación estándar de 7,31 meses",
+                    "textStyle": {
+                      "fontWeight": "bold"
+                    }
+                  },
+                  {
+                    "value": " indica una dispersión moderada, con la mayoría de los usuarios concentrados aproximadamente entre "
+                  },
+                  {
+                    "value": "5 y 19 meses de antigüedad",
+                    "textStyle": {
+                      "fontWeight": "bold"
+                    }
+                  },
+                  {
+                    "value": "."
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "El histograma y la curva de frecuencia relativa muestran que la mayor concentración de usuarios se encuentra entre "
+                  },
+                  {
+                    "value": "5 y 15 meses",
+                    "textStyle": {
+                      "fontWeight": "bold"
+                    }
+                  },
+                  {
+                    "value": ", con un pico cercano a "
+                  },
+                  {
+                    "value": "10–12 meses",
+                    "textStyle": {
+                      "fontWeight": "bold"
+                    }
+                  },
+                  {
+                    "value": ". A partir de los "
+                  },
+                  {
+                    "value": "20 meses",
+                    "textStyle": {
+                      "fontWeight": "bold"
+                    }
+                  },
+                  {
+                    "value": ", la frecuencia de usuarios disminuye progresivamente, indicando que existe un número menor de usuarios con larga permanencia."
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "En conjunto, la distribución presenta "
+                  },
+                  {
+                    "value": "una ligera asimetría positiva (sesgo hacia la derecha)",
+                    "textStyle": {
+                      "fontWeight": "bold"
+                    }
+                  },
+                  {
+                    "value": ", lo que significa que, aunque la mayoría de los usuarios tiene una antigüedad cercana al promedio, existe un grupo reducido con mayor tiempo en la plataforma que extiende la cola de la distribución."
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Desde una perspectiva de negocio, estos resultados sugieren que AprendiFy logra "
+                  },
+                  {
+                    "value": "atraer y mantener usuarios activos durante su primer año de uso",
+                    "textStyle": {
+                      "fontWeight": "bold"
+                    }
+                  },
+                  {
+                    "value": ", aunque la proporción de usuarios con permanencias muy prolongadas es menor, lo que podría representar "
+                  },
+                  {
+                    "value": "una oportunidad para fortalecer las estrategias de retención a largo plazo",
+                    "textStyle": {
+                      "fontWeight": "bold"
+                    }
+                  },
+                  {
+                    "value": "."
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  }
+}

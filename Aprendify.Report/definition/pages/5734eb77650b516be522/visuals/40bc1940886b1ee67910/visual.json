@@ -1,0 +1,75 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.6.0/schema.json",
+  "name": "40bc1940886b1ee67910",
+  "position": {
+    "x": 699.501246882793,
+    "y": 508.72817955112214,
+    "z": 6002,
+    "height": 209.47630922693264,
+    "width": 574.81296758104736,
+    "tabOrder": 6002
+  },
+  "visual": {
+    "visualType": "textbox",
+    "objects": {
+      "general": [
+        {
+          "properties": {
+            "paragraphs": [
+              {
+                "textRuns": [
+                  {
+                    "value": "Relación entre antigüedad y frecuencia de uso"
+                  }
+                ],
+                "horizontalTextAlignment": "center"
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "El análisis de correlación entre la antigüedad de los usuarios y su frecuencia de uso semanal muestra un "
+                  },
+                  {
+                    "value": "coeficiente de correlación de 0.29",
+                    "textStyle": {
+                      "fontWeight": "bold"
+                    }
+                  },
+                  {
+                    "value": ", lo que indica una "
+                  },
+                  {
+                    "value": "relación positiva débil",
+                    "textStyle": {
+                      "fontWeight": "bold"
+                    }
+                  },
+                  {
+                    "value": " entre ambas variables. Esto sugiere que los usuarios que llevan más tiempo en la plataforma tienden a utilizarla ligeramente más, aunque esta relación no es lo suficientemente fuerte como para explicar por sí sola los niveles de actividad observados."
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "En conjunto, los resultados indican que, si bien la permanencia en la plataforma puede influir parcialmente en el uso, "
+                  },
+                  {
+                    "value": "otros factores como la motivación del estudiante, el tipo de contenido o la satisfacción con los cursos podrían tener un impacto más significativo en la frecuencia de uso",
+                    "textStyle": {
+                      "fontWeight": "bold"
+                    }
+                  },
+                  {
+                    "value": "."
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  }
+}

@@ -1,0 +1,506 @@
+table Encuesta
+	lineageTag: 580121a9-d45a-4128-a5b4-e27064784a5f
+
+	measure Media_antiguedad =
+			
+			AVERAGE('Encuesta'[antiguedad meses])
+		formatString: #,0.00
+		lineageTag: 110e525d-e3bd-4ee5-bd3a-987b559c566f
+
+	measure Media_frecuencia_uso_horas =
+			
+			AVERAGE('Encuesta'[frecuencia uso horas])
+		lineageTag: 5d86a131-b73b-4af6-8d0c-c491213973b2
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure Media_tasa_completitud_porcentaje =
+			
+			AVERAGE('Encuesta'[tasa completitud porcentaje])
+		lineageTag: 67f158e4-ef57-489d-aa18-1af4eebac7aa
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure Media_numero_cursos_iniciados =
+			
+			AVERAGE('Encuesta'[numero cursos iniciados])
+		lineageTag: d084023d-98df-49f4-bc74-08435eca053d
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure Mediana_antiguedad =
+			
+			MEDIAN('Encuesta'[antiguedad meses])
+		lineageTag: 5c676804-e8c3-4114-b1a2-dd033d2c89ee
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure Mediana_frecuencia_uso_horas =
+			
+			MEDIAN('Encuesta'[frecuencia uso horas])
+		lineageTag: 9fd437bd-7416-4e0c-8f0a-356db8caf8ab
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure Mediana_tasa_completitud_porcentaje =
+			
+			MEDIAN('Encuesta'[tasa completitud porcentaje])
+		lineageTag: 86f0cacd-1caa-4aaf-a676-12ea0b6c8d3c
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure Mediana_numero_cursos_iniciados =
+			
+			MEDIAN('Encuesta'[numero cursos iniciados])
+		lineageTag: 5e276a60-d685-452f-a1bd-3addc012e039
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure Moda_antiguedad =
+			
+			MAXX(
+			    TOPN(
+			        1,
+			        SUMMARIZE(
+			            'Encuesta',
+			            'Encuesta'[antiguedad meses],
+			            "Frecuencia", COUNT('Encuesta'[antiguedad meses])
+			        ),
+			        [Frecuencia],
+			        DESC
+			    ),
+			    'Encuesta'[antiguedad meses]
+			)
+		formatString: 0
+		lineageTag: 9c4b80b0-adee-41a3-8e8e-5ba9a8b00b44
+
+	measure Moda_numero_cursos_iniciados =
+			
+			MAXX(
+			    TOPN(
+			        1,
+			        SUMMARIZE(
+			            'Encuesta',
+			            'Encuesta'[numero cursos iniciados],
+			            "Frecuencia", COUNT('Encuesta'[numero cursos iniciados])
+			        ),
+			        [Frecuencia],
+			        DESC
+			    ),
+			    'Encuesta'[numero cursos iniciados]
+			)
+		formatString: 0
+		lineageTag: 2c60349c-0971-4ad5-9a7a-f68521657b2e
+
+	measure Moda_tasa_completitud_porcentaje =
+			
+			MAXX(
+			    TOPN(
+			        1,
+			        SUMMARIZE(
+			            'Encuesta',
+			            'Encuesta'[tasa completitud porcentaje],
+			            "Frecuencia", COUNT('Encuesta'[tasa completitud porcentaje])
+			        ),
+			        [Frecuencia],
+			        DESC
+			    ),
+			    'Encuesta'[tasa completitud porcentaje]
+			)
+		formatString: 0
+		lineageTag: 8a0589ee-0447-43f5-8eec-c43d22511d21
+
+	measure Moda_frecuencia_uso_horas =
+			
+			MAXX(
+			    TOPN(
+			        1,
+			        SUMMARIZE(
+			            'Encuesta',
+			            'Encuesta'[frecuencia uso horas],
+			            "Frecuencia", COUNT('Encuesta'[frecuencia uso horas])
+			        ),
+			        [Frecuencia],
+			        DESC
+			    ),
+			    'Encuesta'[frecuencia uso horas]
+			)
+		lineageTag: 27b326cd-6c50-474f-8dff-b284f83a473e
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure Rango_antiguedad =
+			
+			MAX('Encuesta'[antiguedad meses]) -
+			MIN('Encuesta'[antiguedad meses])
+		formatString: 0
+		lineageTag: 901b92f6-a477-4b1f-b542-b43bad0e0a42
+
+	measure Rango_numero_cursos_iniciados =
+			
+			MAX('Encuesta'[numero cursos iniciados]) -
+			MIN('Encuesta'[numero cursos iniciados])
+		formatString: 0
+		lineageTag: e88a4c09-79ad-47f4-b7e2-419d252536b7
+
+	measure Rango_tasa_completitud_porcentaje =
+			
+			MAX('Encuesta'[tasa completitud porcentaje]) -
+			MIN('Encuesta'[tasa completitud porcentaje])
+		formatString: 0
+		lineageTag: 8b59272c-08c7-4815-86fe-78f8212aa5a9
+
+	measure Rango_frecuencia_uso_horas =
+			
+			MAX('Encuesta'[frecuencia uso horas]) -
+			MIN('Encuesta'[frecuencia uso horas])
+		lineageTag: 3e9d8ee1-1e17-454f-a232-25a4d685749f
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure Varianza_antiguedad =
+			
+			VAR.P('Encuesta'[antiguedad meses])
+		lineageTag: ea9dda20-1979-4ede-990e-8bc75a056a7a
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure Varianza_numero_cursos_iniciados =
+			
+			VAR.P('Encuesta'[numero cursos iniciados])
+		lineageTag: 75101b5b-7f79-4ace-a2a4-a21edf22baa9
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure Varianza_tasa_completitud_porcentaje =
+			
+			VAR.P('Encuesta'[tasa completitud porcentaje])
+		lineageTag: d8f97e7c-8247-4d4a-b0d2-937df5b58b4b
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure Varianza_frecuencia_uso_horas =
+			
+			VAR.P('Encuesta'[frecuencia uso horas])
+		lineageTag: 3982b996-39f3-4af0-aa6d-b3095392463d
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure DesvStd_antiguedad =
+			
+			STDEV.P('Encuesta'[antiguedad meses])
+		lineageTag: cc7412d1-98de-4a6d-bebd-a0eb082a8c93
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure DesvStd_numero_cursos_iniciados =
+			
+			STDEV.P('Encuesta'[numero cursos iniciados])
+		lineageTag: 070b72b5-bd58-4d76-ae29-ffbeed00cf84
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure DesvStd_tasa_completitud_porcentaje =
+			
+			STDEV.P('Encuesta'[tasa completitud porcentaje])
+		formatString: #,0.00
+		lineageTag: a53ed406-b900-4be6-8329-e19963433ae0
+
+	measure DesvStd_frecuencia_uso_horas =
+			
+			STDEV.P('Encuesta'[frecuencia uso horas])
+		lineageTag: cc114a98-57b6-438b-9e57-0364c3d8b8bc
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure frecuencia_relativa_suscripcion =
+			DIVIDE(
+			    COUNT(Encuesta[tipo suscripcion]),
+			    CALCULATE(
+			    COUNTROWS(Encuesta),
+			    ALL(Encuesta[tipo suscripcion])
+			    ))
+		formatString: 0.0\ %;-0.0\ %;0.0\ %
+		lineageTag: 9ae6856c-cdbc-494a-bcb4-44392e1824e6
+
+	measure frecuencia_intencion_renovar =
+			DIVIDE(
+			    COUNT(Encuesta[intencion renovar]),
+			    CALCULATE(
+			    COUNTROWS(Encuesta),
+			    ALL(Encuesta[intencion renovar])
+			    ))
+		formatString: 0.0\ %;-0.0\ %;0.0\ %
+		lineageTag: 34339bb6-aaf3-482a-aa2f-8fde2356eaab
+
+	measure frecuencia_relativa_antiguedad =
+			
+			DIVIDE(
+			    [frecuencia_absoluta_antiguedad],
+			    CALCULATE(
+			        COUNT(Encuesta[antiguedad meses]),
+			        ALL(Encuesta)
+			    )
+			)
+		lineageTag: 554e35b8-cc25-496b-bef6-ae7e5dda33e4
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure frecuencia_absoluta_antiguedad =
+			
+			COUNT(Encuesta[antiguedad meses])
+		formatString: 0
+		lineageTag: d98f85a8-9c37-4b92-9525-09433915bf6b
+
+	measure Frecuencia_relativa_uso = ```
+			
+			DIVIDE(
+			    COUNT('Encuesta'[frecuencia uso horas]),
+			    CALCULATE(COUNT('Encuesta'[frecuencia uso horas]), 
+			    ALL('Encuesta'))
+			)
+			```
+		lineageTag: b51bd514-7df8-4e07-a615-df4bf36ce1f3
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'tamaño encuesta' = COUNTROWS(Encuesta)
+		formatString: 0
+		lineageTag: 6d09069c-0756-415d-bd6c-1a1421f934c3
+
+	measure Correlacion_Antiguedad_Uso =
+			
+			VAR TablaBase =
+			    ADDCOLUMNS(
+			        'Encuesta',
+			        "X", 'Encuesta'[antiguedad meses],
+			        "Y", 'Encuesta'[frecuencia uso horas]
+			    )
+			
+			VAR MediaX =
+			    AVERAGEX(TablaBase, [X])
+			
+			VAR MediaY =
+			    AVERAGEX(TablaBase, [Y])
+			
+			VAR Numerador =
+			    SUMX(
+			        TablaBase,
+			        ([X] - MediaX) * ([Y] - MediaY)
+			    )
+			
+			VAR DenX =
+			    SQRT(
+			        SUMX(
+			            TablaBase,
+			            POWER([X] - MediaX, 2)
+			        )
+			    )
+			
+			VAR DenY =
+			    SQRT(
+			        SUMX(
+			            TablaBase,
+			            POWER([Y] - MediaY, 2)
+			        )
+			    )
+			
+			RETURN
+			DIVIDE(Numerador, DenX * DenY)
+		formatString: #,0.00
+		lineageTag: bb0699da-c7b0-458c-b916-59858e298242
+
+	column 'antiguedad meses'
+		dataType: int64
+		formatString: 0
+		lineageTag: 82595363-81ba-476c-aaa8-ef6e73447a39
+		summarizeBy: sum
+		sourceColumn: antiguedad meses
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation __PBI_SemanticLinks = [{"LinkTarget":{"TableName":"Encuesta","TableItemName":"antiguedad meses (grupos)","ObjectType":4},"LinkType":"UsedInGroup"}]
+
+	column 'frecuencia uso horas'
+		dataType: double
+		lineageTag: 587d49c6-a08d-4a23-b95d-091b575e611f
+		summarizeBy: sum
+		sourceColumn: frecuencia uso horas
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+		annotation __PBI_SemanticLinks = [{"LinkTarget":{"TableName":"Encuesta","TableItemName":"frecuencia uso horas (grupos)","ObjectType":4},"LinkType":"UsedInGroup"}]
+
+	column 'calidad contenido'
+		dataType: int64
+		formatString: 0
+		lineageTag: 55233f31-d4fa-4629-893c-ea3200be2ba8
+		summarizeBy: sum
+		sourceColumn: calidad contenido
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'facilidad uso'
+		dataType: int64
+		formatString: 0
+		lineageTag: 52052254-6737-4aa4-945d-da6810ee9dfb
+		summarizeBy: sum
+		sourceColumn: facilidad uso
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'soporte tecnico'
+		dataType: int64
+		formatString: 0
+		lineageTag: 96f2b7cd-e64d-4fef-b0e6-d0d61514409c
+		summarizeBy: sum
+		sourceColumn: soporte tecnico
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'relevancia materiales'
+		dataType: int64
+		formatString: 0
+		lineageTag: 5e168740-503a-4afd-a846-6eab3e2541a7
+		summarizeBy: sum
+		sourceColumn: relevancia materiales
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'nivel interactividad'
+		dataType: int64
+		formatString: 0
+		lineageTag: 82d17282-91e5-4790-b93c-f6aa64e7f252
+		summarizeBy: sum
+		sourceColumn: nivel interactividad
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'tasa completitud porcentaje'
+		dataType: int64
+		formatString: 0
+		lineageTag: f11d5d92-ed6e-4245-a5eb-2bb93a55e476
+		summarizeBy: sum
+		sourceColumn: tasa completitud porcentaje
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'numero cursos iniciados'
+		dataType: int64
+		formatString: 0
+		lineageTag: 2d818404-2617-4628-a5c7-5be11ad80878
+		summarizeBy: sum
+		sourceColumn: numero cursos iniciados
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'tipo suscripcion'
+		dataType: string
+		lineageTag: ffd6d4f0-212b-42a4-844c-d0cd773858e0
+		summarizeBy: none
+		sourceColumn: tipo suscripcion
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'intencion renovar'
+		dataType: string
+		lineageTag: 2e6cc6d8-b29f-4e0b-a06c-fbe0d6d4ea47
+		summarizeBy: none
+		sourceColumn: intencion renovar
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'antiguedad meses (grupos)' =
+			IF(
+				ISBLANK('Encuesta'[antiguedad meses]),
+				BLANK(),
+				INT('Encuesta'[antiguedad meses] / 5) * 5
+			)
+		formatString: 0
+		lineageTag: 4dc74e0f-965b-4f72-bca6-68db356fae31
+		summarizeBy: none
+
+		extendedProperty GroupingMetadata =
+				{
+				  "version": 0,
+				  "groupedColumns": [
+				    {
+				      "Column": {
+				        "Expression": {
+				          "SourceRef": {
+				            "Entity": "Encuesta"
+				          }
+				        },
+				        "Property": "antiguedad meses"
+				      }
+				    }
+				  ],
+				  "binningMetadata": {
+				    "binSize": {
+				      "value": 5.0,
+				      "unit": 0
+				    }
+				  }
+				}
+
+		annotation GroupingDesignState = {"Version":0,"Sources":[{"Name":"e","Entity":"Encuesta"}],"GroupedColumns":[{"Column":{"Expression":{"SourceRef":{"Source":"e"}},"Property":"antiguedad meses"}}],"BinItem":{"Expression":{"Floor":{"Expression":{"Column":{"Expression":{"SourceRef":{"Source":"e"}},"Property":"antiguedad meses"}},"Size":5.0}}}}
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'frecuencia uso horas (grupos)' =
+			IF(
+				ISBLANK('Encuesta'[frecuencia uso horas]),
+				BLANK(),
+				IF(
+					'Encuesta'[frecuencia uso horas] >= 0,
+					ROUNDDOWN('Encuesta'[frecuencia uso horas] / 2, 0) * 2,
+					ROUNDUP('Encuesta'[frecuencia uso horas] / 2, 0) * 2
+				)
+			)
+		lineageTag: 10e431bf-e4a4-4149-8c7d-7107f390c0de
+		summarizeBy: none
+
+		extendedProperty GroupingMetadata =
+				{
+				  "version": 0,
+				  "groupedColumns": [
+				    {
+				      "Column": {
+				        "Expression": {
+				          "SourceRef": {
+				            "Entity": "Encuesta"
+				          }
+				        },
+				        "Property": "frecuencia uso horas"
+				      }
+				    }
+				  ],
+				  "binningMetadata": {
+				    "binSize": {
+				      "value": 2.0,
+				      "unit": 0
+				    }
+				  }
+				}
+
+		annotation GroupingDesignState = {"Version":0,"Sources":[{"Name":"e","Entity":"Encuesta"}],"GroupedColumns":[{"Column":{"Expression":{"SourceRef":{"Source":"e"}},"Property":"frecuencia uso horas"}}],"BinItem":{"Expression":{"Floor":{"Expression":{"Column":{"Expression":{"SourceRef":{"Source":"e"}},"Property":"frecuencia uso horas"}},"Size":2.0}}}}
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	partition Encuesta = m
+		mode: import
+		source =
+				let
+				    Origen = Excel.Workbook(File.Contents("C:\Users\G_Ardila\OneDrive\Desktop\aprendify_data.xlsx"), null, true),
+				    Hoja1_Sheet = Origen{[Item="Hoja1",Kind="Sheet"]}[Data],
+				    #"Encabezados promovidos" = Table.PromoteHeaders(Hoja1_Sheet, [PromoteAllScalars=true]),
+				    #"Tipo cambiado" = Table.TransformColumnTypes(#"Encabezados promovidos",{{"antiguedad meses", Int64.Type}, {"frecuencia uso horas", type number}, {"calidad contenido", Int64.Type}, {"facilidad uso", Int64.Type}, {"soporte tecnico", Int64.Type}, {"relevancia materiales", Int64.Type}, {"nivel interactividad", Int64.Type}, {"tasa completitud porcentaje", Int64.Type}, {"numero cursos iniciados", Int64.Type}, {"tipo suscripcion", type text}, {"intencion renovar", type text}})
+				in
+				    #"Tipo cambiado"
+
+	annotation PBI_ResultType = Table
+

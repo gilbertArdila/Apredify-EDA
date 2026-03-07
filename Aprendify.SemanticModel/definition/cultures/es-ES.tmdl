@@ -1,0 +1,2716 @@
+cultureInfo es-ES
+
+	linguisticMetadata =
+			{
+			  "Version": "4.1.0",
+			  "Language": "en-US",
+			  "Entities": {
+			    "encuesta": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Encuesta"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "encuesta": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "encuesta.antiguedad_mese": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Encuesta",
+			          "ConceptualProperty": "antiguedad meses"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "antiguedad mese": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Antigüedad del usuario (meses)": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "encuesta.frecuencia_uso_hora": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Encuesta",
+			          "ConceptualProperty": "frecuencia uso horas"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "frecuencia uso hora": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Frecuencia de uso semanal (horas)": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "encuesta.calidad_contenido": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Encuesta",
+			          "ConceptualProperty": "calidad contenido"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "calidad contenido": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "encuesta.facilidad_uso": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Encuesta",
+			          "ConceptualProperty": "facilidad uso"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "facilidad uso": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "encuesta.soporte_tecnico": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Encuesta",
+			          "ConceptualProperty": "soporte tecnico"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "soporte tecnico": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "encuesta.relevancia_materiale": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Encuesta",
+			          "ConceptualProperty": "relevancia materiales"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "relevancia materiale": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "encuesta.nivel_interactividad": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Encuesta",
+			          "ConceptualProperty": "nivel interactividad"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "nivel interactividad": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "encuesta.tasa_completitud_porcentaje": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Encuesta",
+			          "ConceptualProperty": "tasa completitud porcentaje"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "tasa completitud porcentaje": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "encuesta.numero_cursos_iniciado": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Encuesta",
+			          "ConceptualProperty": "numero cursos iniciados"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "numero cursos iniciado": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "numero curso iniciado": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        }
+			      ]
+			    },
+			    "encuesta.tipo_suscripcion": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Encuesta",
+			          "ConceptualProperty": "tipo suscripcion"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "tipo suscripcion": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Suscripción": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "encuesta.intencion_renovar": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Encuesta",
+			          "ConceptualProperty": "intencion renovar"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "intencion renovar": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Intención": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "encuesta.media_antiguedad": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Encuesta",
+			          "ConceptualProperty": "Media_antiguedad"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "media antiguedad": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Media_antiguedad": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "Media": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "encuesta.media_frecuencia_uso_horas": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Encuesta",
+			          "ConceptualProperty": "Media_frecuencia_uso_horas"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "media frecuencia uso horas": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Media_frecuencia_uso_horas": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "Media": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "encuesta.media_tasa_completitud_porcentaje": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Encuesta",
+			          "ConceptualProperty": "Media_tasa_completitud_porcentaje"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "media tasa completitud porcentaje": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Media_tasa_completitud_porcentaje": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "Media": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "encuesta.media_numero_cursos_iniciados": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Encuesta",
+			          "ConceptualProperty": "Media_numero_cursos_iniciados"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "media numero cursos iniciados": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Media_numero_cursos_iniciados": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "Media": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "encuesta.mediana_antiguedad": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Encuesta",
+			          "ConceptualProperty": "Mediana_antiguedad"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "mediana antiguedad": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Mediana_antiguedad": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "Mediana": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "encuesta.mediana_frecuencia_uso_horas": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Encuesta",
+			          "ConceptualProperty": "Mediana_frecuencia_uso_horas"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "mediana frecuencia uso horas": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Mediana_frecuencia_uso_horas": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "Mediana": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "encuesta.mediana_tasa_completitud_porcentaje": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Encuesta",
+			          "ConceptualProperty": "Mediana_tasa_completitud_porcentaje"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "mediana tasa completitud porcentaje": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Mediana_tasa_completitud_porcentaje": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "Mediana": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "encuesta.mediana_numero_cursos_iniciados": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Encuesta",
+			          "ConceptualProperty": "Mediana_numero_cursos_iniciados"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "mediana numero cursos iniciados": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Mediana_numero_cursos_iniciados": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "Mediana": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "encuesta.moda_antiguedad": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Encuesta",
+			          "ConceptualProperty": "Moda_antiguedad"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "moda antiguedad": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Moda_antiguedad": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "Moda": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "encuesta.moda_numero_cursos_iniciados": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Encuesta",
+			          "ConceptualProperty": "Moda_numero_cursos_iniciados"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "moda numero cursos iniciados": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Moda_numero_cursos_iniciados": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "Moda": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "encuesta.moda_tasa_completitud_porcentaje": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Encuesta",
+			          "ConceptualProperty": "Moda_tasa_completitud_porcentaje"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "moda tasa completitud porcentaje": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Moda_tasa_completitud_porcentaje": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "Moda": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "encuesta.moda_frecuencia_uso_horas": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Encuesta",
+			          "ConceptualProperty": "Moda_frecuencia_uso_horas"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "moda frecuencia uso horas": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Moda_frecuencia_uso_horas": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "Moda": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "encuesta.rango_antiguedad": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Encuesta",
+			          "ConceptualProperty": "Rango_antiguedad"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "rango antiguedad": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Rango_antiguedad": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "Rango": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "encuesta.rango_numero_cursos_iniciados": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Encuesta",
+			          "ConceptualProperty": "Rango_numero_cursos_iniciados"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "rango numero cursos iniciados": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Rango_numero_cursos_iniciados": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "Rango": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "encuesta.rango_tasa_completitud_porcentaje": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Encuesta",
+			          "ConceptualProperty": "Rango_tasa_completitud_porcentaje"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "rango tasa completitud porcentaje": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Rango_tasa_completitud_porcentaje": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "Rango": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "encuesta.rango_frecuencia_uso_horas": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Encuesta",
+			          "ConceptualProperty": "Rango_frecuencia_uso_horas"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "rango frecuencia uso horas": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Rango_frecuencia_uso_horas": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "Rango": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "encuesta.varianza_antiguedad": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Encuesta",
+			          "ConceptualProperty": "Varianza_antiguedad"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "varianza antiguedad": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Varianza_antiguedad": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "Varianza": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "encuesta.varianza_numero_cursos_iniciados": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Encuesta",
+			          "ConceptualProperty": "Varianza_numero_cursos_iniciados"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "varianza numero cursos iniciados": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Varianza_numero_cursos_iniciados": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "Varianza": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "encuesta.varianza_tasa_completitud_porcentaje": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Encuesta",
+			          "ConceptualProperty": "Varianza_tasa_completitud_porcentaje"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "varianza tasa completitud porcentaje": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Varianza_tasa_completitud_porcentaje": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "Varianza": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "encuesta.varianza_frecuencia_uso_horas": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Encuesta",
+			          "ConceptualProperty": "Varianza_frecuencia_uso_horas"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "varianza frecuencia uso horas": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Varianza_frecuencia_uso_horas": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "Varianza": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "encuesta.desv_std_antiguedad": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Encuesta",
+			          "ConceptualProperty": "DesvStd_antiguedad"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "desv std antiguedad": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "DesvStd_antiguedad": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "DesvStd": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "encuesta.desv_std_numero_cursos_iniciados": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Encuesta",
+			          "ConceptualProperty": "DesvStd_numero_cursos_iniciados"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "desv std numero cursos iniciados": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "DesvStd_numero_cursos_iniciados": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "DesvStd": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "encuesta.desv_std_tasa_completitud_porcentaje": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Encuesta",
+			          "ConceptualProperty": "DesvStd_tasa_completitud_porcentaje"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "desv std tasa completitud porcentaje": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "DesvStd_tasa_completitud_porcentaje": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "DesvStd": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "encuesta.desv_std_frecuencia_uso_horas": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Encuesta",
+			          "ConceptualProperty": "DesvStd_frecuencia_uso_horas"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "desv std frecuencia uso horas": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "DesvStd_frecuencia_uso_horas": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "DesvStd": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "encuesta.frecuencia_relativa_suscripcion": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Encuesta",
+			          "ConceptualProperty": "frecuencia_relativa_suscripcion"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "frecuencia relativa suscripcion": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "frecuencia_relativa_suscripcion": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "Relativa": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "encuesta.frecuencia_intencion_renovar": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Encuesta",
+			          "ConceptualProperty": "frecuencia_intencion_renovar"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "frecuencia intencion renovar": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "frecuencia_intencion_renovar": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "Relativa": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "encuesta.antiguedad_meses_grupos": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Encuesta",
+			          "ConceptualProperty": "antiguedad meses (grupos)"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "antiguedad meses (grupos)": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "antiguedad mese (grupo)": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        },
+			        {
+			          "antiguedad meses": {
+			            "State": "Generated",
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "Antigüedad en la plataforma (meses)": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "encuesta.frecuencia_relativa_antiguedad": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Encuesta",
+			          "ConceptualProperty": "frecuencia_relativa_antiguedad"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "frecuencia relativa antiguedad": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "frecuencia_relativa_antiguedad": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "Frecuencia relativa": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "encuesta.frecuencia_absoluta_antiguedad": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Encuesta",
+			          "ConceptualProperty": "frecuencia_absoluta_antiguedad"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "frecuencia absoluta antiguedad": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "frecuencia_absoluta_antiguedad": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "Número de usuarios": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "encuesta.frecuencia_uso_horas_grupos": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Encuesta",
+			          "ConceptualProperty": "frecuencia uso horas (grupos)"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "frecuencia uso horas (grupos)": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "frecuencia uso hora (grupo)": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        },
+			        {
+			          "frecuencia uso horas": {
+			            "State": "Generated",
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "Frecuencia de uso semanal (horas)": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "encuesta.frecuencia_relativa_uso": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Encuesta",
+			          "ConceptualProperty": "Frecuencia_relativa_uso"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "frecuencia relativa uso": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Frecuencia_relativa_uso": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "encuesta.tamaño_encuesta": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Encuesta",
+			          "ConceptualProperty": "tamaño encuesta"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "tamaño encuesta": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    }
+			  },
+			  "Relationships": {
+			    "encuesta_has_tamaño_encuesta": {
+			      "Binding": {
+			        "ConceptualEntity": "Encuesta"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "encuesta": {
+			          "Target": {
+			            "Entity": "encuesta"
+			          }
+			        },
+			        "encuesta.tamaño_encuesta": {
+			          "Target": {
+			            "Entity": "encuesta.tamaño_encuesta"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "encuesta"
+			            },
+			            "Object": {
+			              "Role": "encuesta.tamaño_encuesta"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "encuestas_have_tamaño_encuesta"
+			        }
+			      ]
+			    },
+			    "encuesta_has_frecuencia_relativa_uso": {
+			      "Binding": {
+			        "ConceptualEntity": "Encuesta"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "encuesta": {
+			          "Target": {
+			            "Entity": "encuesta"
+			          }
+			        },
+			        "encuesta.frecuencia_relativa_uso": {
+			          "Target": {
+			            "Entity": "encuesta.frecuencia_relativa_uso"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "encuesta"
+			            },
+			            "Object": {
+			              "Role": "encuesta.frecuencia_relativa_uso"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "encuestas_have_frecuencia_relativa_uso"
+			        }
+			      ]
+			    },
+			    "encuesta_has_frecuencia_uso_horas_grupos": {
+			      "Binding": {
+			        "ConceptualEntity": "Encuesta"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "encuesta": {
+			          "Target": {
+			            "Entity": "encuesta"
+			          }
+			        },
+			        "encuesta.frecuencia_uso_horas_grupos": {
+			          "Target": {
+			            "Entity": "encuesta.frecuencia_uso_horas_grupos"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "encuesta"
+			            },
+			            "Object": {
+			              "Role": "encuesta.frecuencia_uso_horas_grupos"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "encuestas_have_frecuencia_uso_horas_grupos"
+			        }
+			      ]
+			    },
+			    "encuesta_has_frecuencia_absoluta_antiguedad": {
+			      "Binding": {
+			        "ConceptualEntity": "Encuesta"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "encuesta": {
+			          "Target": {
+			            "Entity": "encuesta"
+			          }
+			        },
+			        "encuesta.frecuencia_absoluta_antiguedad": {
+			          "Target": {
+			            "Entity": "encuesta.frecuencia_absoluta_antiguedad"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "encuesta"
+			            },
+			            "Object": {
+			              "Role": "encuesta.frecuencia_absoluta_antiguedad"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "encuestas_have_frecuencia_absoluta_antiguedad"
+			        }
+			      ]
+			    },
+			    "encuesta_has_frecuencia_relativa_antiguedad": {
+			      "Binding": {
+			        "ConceptualEntity": "Encuesta"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "encuesta": {
+			          "Target": {
+			            "Entity": "encuesta"
+			          }
+			        },
+			        "encuesta.frecuencia_relativa_antiguedad": {
+			          "Target": {
+			            "Entity": "encuesta.frecuencia_relativa_antiguedad"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "encuesta"
+			            },
+			            "Object": {
+			              "Role": "encuesta.frecuencia_relativa_antiguedad"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "encuestas_have_frecuencia_relativa_antiguedad"
+			        }
+			      ]
+			    },
+			    "encuesta_has_antiguedad_meses_grupos": {
+			      "Binding": {
+			        "ConceptualEntity": "Encuesta"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "encuesta": {
+			          "Target": {
+			            "Entity": "encuesta"
+			          }
+			        },
+			        "encuesta.antiguedad_meses_grupos": {
+			          "Target": {
+			            "Entity": "encuesta.antiguedad_meses_grupos"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "encuesta"
+			            },
+			            "Object": {
+			              "Role": "encuesta.antiguedad_meses_grupos"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "encuestas_have_antiguedad_meses_grupos"
+			        }
+			      ]
+			    },
+			    "encuesta_has_frecuencia_intencion_renovar": {
+			      "Binding": {
+			        "ConceptualEntity": "Encuesta"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "encuesta": {
+			          "Target": {
+			            "Entity": "encuesta"
+			          }
+			        },
+			        "encuesta.frecuencia_intencion_renovar": {
+			          "Target": {
+			            "Entity": "encuesta.frecuencia_intencion_renovar"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "encuesta"
+			            },
+			            "Object": {
+			              "Role": "encuesta.frecuencia_intencion_renovar"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "encuestas_have_frecuencia_intencion_renovar"
+			        }
+			      ]
+			    },
+			    "encuesta_has_frecuencia_relativa_suscripcion": {
+			      "Binding": {
+			        "ConceptualEntity": "Encuesta"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "encuesta": {
+			          "Target": {
+			            "Entity": "encuesta"
+			          }
+			        },
+			        "encuesta.frecuencia_relativa_suscripcion": {
+			          "Target": {
+			            "Entity": "encuesta.frecuencia_relativa_suscripcion"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "encuesta"
+			            },
+			            "Object": {
+			              "Role": "encuesta.frecuencia_relativa_suscripcion"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "encuestas_have_frecuencia_relativa_suscripcion"
+			        }
+			      ]
+			    },
+			    "encuesta_has_desv_std_frecuencia_uso_horas": {
+			      "Binding": {
+			        "ConceptualEntity": "Encuesta"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "encuesta": {
+			          "Target": {
+			            "Entity": "encuesta"
+			          }
+			        },
+			        "encuesta.desv_std_frecuencia_uso_horas": {
+			          "Target": {
+			            "Entity": "encuesta.desv_std_frecuencia_uso_horas"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "encuesta"
+			            },
+			            "Object": {
+			              "Role": "encuesta.desv_std_frecuencia_uso_horas"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "encuestas_have_desv_std_frecuencia_uso_horas"
+			        }
+			      ]
+			    },
+			    "encuesta_has_desv_std_tasa_completitud_porcentaje": {
+			      "Binding": {
+			        "ConceptualEntity": "Encuesta"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "encuesta": {
+			          "Target": {
+			            "Entity": "encuesta"
+			          }
+			        },
+			        "encuesta.desv_std_tasa_completitud_porcentaje": {
+			          "Target": {
+			            "Entity": "encuesta.desv_std_tasa_completitud_porcentaje"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "encuesta"
+			            },
+			            "Object": {
+			              "Role": "encuesta.desv_std_tasa_completitud_porcentaje"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "encuestas_have_desv_std_tasa_completitud_porcentaje"
+			        }
+			      ]
+			    },
+			    "encuesta_has_desv_std_numero_cursos_iniciados": {
+			      "Binding": {
+			        "ConceptualEntity": "Encuesta"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "encuesta": {
+			          "Target": {
+			            "Entity": "encuesta"
+			          }
+			        },
+			        "encuesta.desv_std_numero_cursos_iniciados": {
+			          "Target": {
+			            "Entity": "encuesta.desv_std_numero_cursos_iniciados"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "encuesta"
+			            },
+			            "Object": {
+			              "Role": "encuesta.desv_std_numero_cursos_iniciados"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "encuestas_have_desv_std_numero_cursos_iniciados"
+			        }
+			      ]
+			    },
+			    "encuesta_has_desv_std_antiguedad": {
+			      "Binding": {
+			        "ConceptualEntity": "Encuesta"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "encuesta": {
+			          "Target": {
+			            "Entity": "encuesta"
+			          }
+			        },
+			        "encuesta.desv_std_antiguedad": {
+			          "Target": {
+			            "Entity": "encuesta.desv_std_antiguedad"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "encuesta"
+			            },
+			            "Object": {
+			              "Role": "encuesta.desv_std_antiguedad"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "encuestas_have_desv_std_antiguedad"
+			        }
+			      ]
+			    },
+			    "encuesta_has_varianza_frecuencia_uso_horas": {
+			      "Binding": {
+			        "ConceptualEntity": "Encuesta"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "encuesta": {
+			          "Target": {
+			            "Entity": "encuesta"
+			          }
+			        },
+			        "encuesta.varianza_frecuencia_uso_horas": {
+			          "Target": {
+			            "Entity": "encuesta.varianza_frecuencia_uso_horas"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "encuesta"
+			            },
+			            "Object": {
+			              "Role": "encuesta.varianza_frecuencia_uso_horas"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "encuestas_have_varianza_frecuencia_uso_horas"
+			        }
+			      ]
+			    },
+			    "encuesta_has_varianza_tasa_completitud_porcentaje": {
+			      "Binding": {
+			        "ConceptualEntity": "Encuesta"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "encuesta": {
+			          "Target": {
+			            "Entity": "encuesta"
+			          }
+			        },
+			        "encuesta.varianza_tasa_completitud_porcentaje": {
+			          "Target": {
+			            "Entity": "encuesta.varianza_tasa_completitud_porcentaje"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "encuesta"
+			            },
+			            "Object": {
+			              "Role": "encuesta.varianza_tasa_completitud_porcentaje"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "encuestas_have_varianza_tasa_completitud_porcentaje"
+			        }
+			      ]
+			    },
+			    "encuesta_has_varianza_numero_cursos_iniciados": {
+			      "Binding": {
+			        "ConceptualEntity": "Encuesta"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "encuesta": {
+			          "Target": {
+			            "Entity": "encuesta"
+			          }
+			        },
+			        "encuesta.varianza_numero_cursos_iniciados": {
+			          "Target": {
+			            "Entity": "encuesta.varianza_numero_cursos_iniciados"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "encuesta"
+			            },
+			            "Object": {
+			              "Role": "encuesta.varianza_numero_cursos_iniciados"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "encuestas_have_varianza_numero_cursos_iniciados"
+			        }
+			      ]
+			    },
+			    "encuesta_has_varianza_antiguedad": {
+			      "Binding": {
+			        "ConceptualEntity": "Encuesta"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "encuesta": {
+			          "Target": {
+			            "Entity": "encuesta"
+			          }
+			        },
+			        "encuesta.varianza_antiguedad": {
+			          "Target": {
+			            "Entity": "encuesta.varianza_antiguedad"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "encuesta"
+			            },
+			            "Object": {
+			              "Role": "encuesta.varianza_antiguedad"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "encuestas_have_varianza_antiguedad"
+			        }
+			      ]
+			    },
+			    "encuesta_has_rango_frecuencia_uso_horas": {
+			      "Binding": {
+			        "ConceptualEntity": "Encuesta"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "encuesta": {
+			          "Target": {
+			            "Entity": "encuesta"
+			          }
+			        },
+			        "encuesta.rango_frecuencia_uso_horas": {
+			          "Target": {
+			            "Entity": "encuesta.rango_frecuencia_uso_horas"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "encuesta"
+			            },
+			            "Object": {
+			              "Role": "encuesta.rango_frecuencia_uso_horas"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "encuestas_have_rango_frecuencia_uso_horas"
+			        }
+			      ]
+			    },
+			    "encuesta_has_rango_tasa_completitud_porcentaje": {
+			      "Binding": {
+			        "ConceptualEntity": "Encuesta"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "encuesta": {
+			          "Target": {
+			            "Entity": "encuesta"
+			          }
+			        },
+			        "encuesta.rango_tasa_completitud_porcentaje": {
+			          "Target": {
+			            "Entity": "encuesta.rango_tasa_completitud_porcentaje"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "encuesta"
+			            },
+			            "Object": {
+			              "Role": "encuesta.rango_tasa_completitud_porcentaje"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "encuestas_have_rango_tasa_completitud_porcentaje"
+			        }
+			      ]
+			    },
+			    "encuesta_has_rango_numero_cursos_iniciados": {
+			      "Binding": {
+			        "ConceptualEntity": "Encuesta"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "encuesta": {
+			          "Target": {
+			            "Entity": "encuesta"
+			          }
+			        },
+			        "encuesta.rango_numero_cursos_iniciados": {
+			          "Target": {
+			            "Entity": "encuesta.rango_numero_cursos_iniciados"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "encuesta"
+			            },
+			            "Object": {
+			              "Role": "encuesta.rango_numero_cursos_iniciados"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "encuestas_have_rango_numero_cursos_iniciados"
+			        }
+			      ]
+			    },
+			    "encuesta_has_rango_antiguedad": {
+			      "Binding": {
+			        "ConceptualEntity": "Encuesta"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "encuesta": {
+			          "Target": {
+			            "Entity": "encuesta"
+			          }
+			        },
+			        "encuesta.rango_antiguedad": {
+			          "Target": {
+			            "Entity": "encuesta.rango_antiguedad"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "encuesta"
+			            },
+			            "Object": {
+			              "Role": "encuesta.rango_antiguedad"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "encuestas_have_rango_antiguedad"
+			        }
+			      ]
+			    },
+			    "encuesta_has_moda_frecuencia_uso_horas": {
+			      "Binding": {
+			        "ConceptualEntity": "Encuesta"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "encuesta": {
+			          "Target": {
+			            "Entity": "encuesta"
+			          }
+			        },
+			        "encuesta.moda_frecuencia_uso_horas": {
+			          "Target": {
+			            "Entity": "encuesta.moda_frecuencia_uso_horas"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "encuesta"
+			            },
+			            "Object": {
+			              "Role": "encuesta.moda_frecuencia_uso_horas"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "encuestas_have_moda_frecuencia_uso_horas"
+			        }
+			      ]
+			    },
+			    "encuesta_has_moda_tasa_completitud_porcentaje": {
+			      "Binding": {
+			        "ConceptualEntity": "Encuesta"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "encuesta": {
+			          "Target": {
+			            "Entity": "encuesta"
+			          }
+			        },
+			        "encuesta.moda_tasa_completitud_porcentaje": {
+			          "Target": {
+			            "Entity": "encuesta.moda_tasa_completitud_porcentaje"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "encuesta"
+			            },
+			            "Object": {
+			              "Role": "encuesta.moda_tasa_completitud_porcentaje"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "encuestas_have_moda_tasa_completitud_porcentaje"
+			        }
+			      ]
+			    },
+			    "encuesta_has_moda_numero_cursos_iniciados": {
+			      "Binding": {
+			        "ConceptualEntity": "Encuesta"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "encuesta": {
+			          "Target": {
+			            "Entity": "encuesta"
+			          }
+			        },
+			        "encuesta.moda_numero_cursos_iniciados": {
+			          "Target": {
+			            "Entity": "encuesta.moda_numero_cursos_iniciados"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "encuesta"
+			            },
+			            "Object": {
+			              "Role": "encuesta.moda_numero_cursos_iniciados"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "encuestas_have_moda_numero_cursos_iniciados"
+			        }
+			      ]
+			    },
+			    "encuesta_has_moda_antiguedad": {
+			      "Binding": {
+			        "ConceptualEntity": "Encuesta"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "encuesta": {
+			          "Target": {
+			            "Entity": "encuesta"
+			          }
+			        },
+			        "encuesta.moda_antiguedad": {
+			          "Target": {
+			            "Entity": "encuesta.moda_antiguedad"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "encuesta"
+			            },
+			            "Object": {
+			              "Role": "encuesta.moda_antiguedad"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "encuestas_have_moda_antiguedad"
+			        }
+			      ]
+			    },
+			    "encuesta_has_mediana_numero_cursos_iniciados": {
+			      "Binding": {
+			        "ConceptualEntity": "Encuesta"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "encuesta": {
+			          "Target": {
+			            "Entity": "encuesta"
+			          }
+			        },
+			        "encuesta.mediana_numero_cursos_iniciados": {
+			          "Target": {
+			            "Entity": "encuesta.mediana_numero_cursos_iniciados"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "encuesta"
+			            },
+			            "Object": {
+			              "Role": "encuesta.mediana_numero_cursos_iniciados"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "encuestas_have_mediana_numero_cursos_iniciados"
+			        }
+			      ]
+			    },
+			    "encuesta_has_mediana_tasa_completitud_porcentaje": {
+			      "Binding": {
+			        "ConceptualEntity": "Encuesta"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "encuesta": {
+			          "Target": {
+			            "Entity": "encuesta"
+			          }
+			        },
+			        "encuesta.mediana_tasa_completitud_porcentaje": {
+			          "Target": {
+			            "Entity": "encuesta.mediana_tasa_completitud_porcentaje"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "encuesta"
+			            },
+			            "Object": {
+			              "Role": "encuesta.mediana_tasa_completitud_porcentaje"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "encuestas_have_mediana_tasa_completitud_porcentaje"
+			        }
+			      ]
+			    },
+			    "encuesta_has_mediana_frecuencia_uso_horas": {
+			      "Binding": {
+			        "ConceptualEntity": "Encuesta"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "encuesta": {
+			          "Target": {
+			            "Entity": "encuesta"
+			          }
+			        },
+			        "encuesta.mediana_frecuencia_uso_horas": {
+			          "Target": {
+			            "Entity": "encuesta.mediana_frecuencia_uso_horas"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "encuesta"
+			            },
+			            "Object": {
+			              "Role": "encuesta.mediana_frecuencia_uso_horas"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "encuestas_have_mediana_frecuencia_uso_horas"
+			        }
+			      ]
+			    },
+			    "encuesta_has_mediana_antiguedad": {
+			      "Binding": {
+			        "ConceptualEntity": "Encuesta"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "encuesta": {
+			          "Target": {
+			            "Entity": "encuesta"
+			          }
+			        },
+			        "encuesta.mediana_antiguedad": {
+			          "Target": {
+			            "Entity": "encuesta.mediana_antiguedad"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "encuesta"
+			            },
+			            "Object": {
+			              "Role": "encuesta.mediana_antiguedad"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "encuestas_have_mediana_antiguedad"
+			        }
+			      ]
+			    },
+			    "encuesta_has_media_numero_cursos_iniciados": {
+			      "Binding": {
+			        "ConceptualEntity": "Encuesta"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "encuesta": {
+			          "Target": {
+			            "Entity": "encuesta"
+			          }
+			        },
+			        "encuesta.media_numero_cursos_iniciados": {
+			          "Target": {
+			            "Entity": "encuesta.media_numero_cursos_iniciados"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "encuesta"
+			            },
+			            "Object": {
+			              "Role": "encuesta.media_numero_cursos_iniciados"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "encuestas_have_media_numero_cursos_iniciados"
+			        }
+			      ]
+			    },
+			    "encuesta_has_media_tasa_completitud_porcentaje": {
+			      "Binding": {
+			        "ConceptualEntity": "Encuesta"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "encuesta": {
+			          "Target": {
+			            "Entity": "encuesta"
+			          }
+			        },
+			        "encuesta.media_tasa_completitud_porcentaje": {
+			          "Target": {
+			            "Entity": "encuesta.media_tasa_completitud_porcentaje"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "encuesta"
+			            },
+			            "Object": {
+			              "Role": "encuesta.media_tasa_completitud_porcentaje"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "encuestas_have_media_tasa_completitud_porcentaje"
+			        }
+			      ]
+			    },
+			    "encuesta_has_media_frecuencia_uso_horas": {
+			      "Binding": {
+			        "ConceptualEntity": "Encuesta"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "encuesta": {
+			          "Target": {
+			            "Entity": "encuesta"
+			          }
+			        },
+			        "encuesta.media_frecuencia_uso_horas": {
+			          "Target": {
+			            "Entity": "encuesta.media_frecuencia_uso_horas"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "encuesta"
+			            },
+			            "Object": {
+			              "Role": "encuesta.media_frecuencia_uso_horas"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "encuestas_have_media_frecuencia_uso_horas"
+			        }
+			      ]
+			    },
+			    "encuesta_has_media_antiguedad": {
+			      "Binding": {
+			        "ConceptualEntity": "Encuesta"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "encuesta": {
+			          "Target": {
+			            "Entity": "encuesta"
+			          }
+			        },
+			        "encuesta.media_antiguedad": {
+			          "Target": {
+			            "Entity": "encuesta.media_antiguedad"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "encuesta"
+			            },
+			            "Object": {
+			              "Role": "encuesta.media_antiguedad"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "encuestas_have_media_antiguedad"
+			        }
+			      ]
+			    },
+			    "encuesta_has_intencion_renovar": {
+			      "Binding": {
+			        "ConceptualEntity": "Encuesta"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "encuesta": {
+			          "Target": {
+			            "Entity": "encuesta"
+			          }
+			        },
+			        "encuesta.intencion_renovar": {
+			          "Target": {
+			            "Entity": "encuesta.intencion_renovar"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "encuesta"
+			            },
+			            "Object": {
+			              "Role": "encuesta.intencion_renovar"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "encuestas_have_intencion_renovars"
+			        }
+			      ]
+			    },
+			    "encuesta_has_tipo_suscripcion": {
+			      "Binding": {
+			        "ConceptualEntity": "Encuesta"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "encuesta": {
+			          "Target": {
+			            "Entity": "encuesta"
+			          }
+			        },
+			        "encuesta.tipo_suscripcion": {
+			          "Target": {
+			            "Entity": "encuesta.tipo_suscripcion"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "encuesta"
+			            },
+			            "Object": {
+			              "Role": "encuesta.tipo_suscripcion"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "encuestas_have_tipo_suscripcions"
+			        }
+			      ]
+			    },
+			    "encuesta_has_numero_cursos_iniciado": {
+			      "Binding": {
+			        "ConceptualEntity": "Encuesta"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "encuesta": {
+			          "Target": {
+			            "Entity": "encuesta"
+			          }
+			        },
+			        "encuesta.numero_cursos_iniciado": {
+			          "Target": {
+			            "Entity": "encuesta.numero_cursos_iniciado"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "encuesta"
+			            },
+			            "Object": {
+			              "Role": "encuesta.numero_cursos_iniciado"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "encuestas_have_numero_cursos_iniciados"
+			        }
+			      ]
+			    },
+			    "encuesta_has_tasa_completitud_porcentaje": {
+			      "Binding": {
+			        "ConceptualEntity": "Encuesta"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "encuesta": {
+			          "Target": {
+			            "Entity": "encuesta"
+			          }
+			        },
+			        "encuesta.tasa_completitud_porcentaje": {
+			          "Target": {
+			            "Entity": "encuesta.tasa_completitud_porcentaje"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "encuesta"
+			            },
+			            "Object": {
+			              "Role": "encuesta.tasa_completitud_porcentaje"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "encuestas_have_tasa_completitud_porcentajes"
+			        }
+			      ]
+			    },
+			    "encuesta_has_nivel_interactividad": {
+			      "Binding": {
+			        "ConceptualEntity": "Encuesta"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "encuesta": {
+			          "Target": {
+			            "Entity": "encuesta"
+			          }
+			        },
+			        "encuesta.nivel_interactividad": {
+			          "Target": {
+			            "Entity": "encuesta.nivel_interactividad"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "encuesta"
+			            },
+			            "Object": {
+			              "Role": "encuesta.nivel_interactividad"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "encuestas_have_nivel_interactividads"
+			        }
+			      ]
+			    },
+			    "encuesta_has_relevancia_materiale": {
+			      "Binding": {
+			        "ConceptualEntity": "Encuesta"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "encuesta": {
+			          "Target": {
+			            "Entity": "encuesta"
+			          }
+			        },
+			        "encuesta.relevancia_materiale": {
+			          "Target": {
+			            "Entity": "encuesta.relevancia_materiale"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "encuesta"
+			            },
+			            "Object": {
+			              "Role": "encuesta.relevancia_materiale"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "encuestas_have_relevancia_materiales"
+			        }
+			      ]
+			    },
+			    "encuesta_has_soporte_tecnico": {
+			      "Binding": {
+			        "ConceptualEntity": "Encuesta"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "encuesta": {
+			          "Target": {
+			            "Entity": "encuesta"
+			          }
+			        },
+			        "encuesta.soporte_tecnico": {
+			          "Target": {
+			            "Entity": "encuesta.soporte_tecnico"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "encuesta"
+			            },
+			            "Object": {
+			              "Role": "encuesta.soporte_tecnico"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "encuestas_have_soporte_tecnicos"
+			        }
+			      ]
+			    },
+			    "encuesta_has_facilidad_uso": {
+			      "Binding": {
+			        "ConceptualEntity": "Encuesta"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "encuesta": {
+			          "Target": {
+			            "Entity": "encuesta"
+			          }
+			        },
+			        "encuesta.facilidad_uso": {
+			          "Target": {
+			            "Entity": "encuesta.facilidad_uso"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "encuesta"
+			            },
+			            "Object": {
+			              "Role": "encuesta.facilidad_uso"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "encuestas_have_facilidad_usos"
+			        }
+			      ]
+			    },
+			    "encuesta_has_calidad_contenido": {
+			      "Binding": {
+			        "ConceptualEntity": "Encuesta"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "encuesta": {
+			          "Target": {
+			            "Entity": "encuesta"
+			          }
+			        },
+			        "encuesta.calidad_contenido": {
+			          "Target": {
+			            "Entity": "encuesta.calidad_contenido"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "encuesta"
+			            },
+			            "Object": {
+			              "Role": "encuesta.calidad_contenido"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "encuestas_have_calidad_contenidos"
+			        }
+			      ]
+			    },
+			    "encuesta_has_frecuencia_uso_hora": {
+			      "Binding": {
+			        "ConceptualEntity": "Encuesta"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "encuesta": {
+			          "Target": {
+			            "Entity": "encuesta"
+			          }
+			        },
+			        "encuesta.frecuencia_uso_hora": {
+			          "Target": {
+			            "Entity": "encuesta.frecuencia_uso_hora"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "encuesta"
+			            },
+			            "Object": {
+			              "Role": "encuesta.frecuencia_uso_hora"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "encuestas_have_frecuencia_uso_horas"
+			        }
+			      ]
+			    },
+			    "encuesta_has_antiguedad_mese": {
+			      "Binding": {
+			        "ConceptualEntity": "Encuesta"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "encuesta": {
+			          "Target": {
+			            "Entity": "encuesta"
+			          }
+			        },
+			        "encuesta.antiguedad_mese": {
+			          "Target": {
+			            "Entity": "encuesta.antiguedad_mese"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "encuesta"
+			            },
+			            "Object": {
+			              "Role": "encuesta.antiguedad_mese"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "encuestas_have_antiguedad_meses"
+			        }
+			      ]
+			    }
+			  },
+			  "Agents": {
+			    "Internal": {
+			      "Version": "1.1.0"
+			    }
+			  }
+			}
+		contentType: json
+

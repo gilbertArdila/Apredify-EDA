@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "SemanticModel",
+    "displayName": "Aprendify"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "1dcd5273-1ca2-45eb-921d-68d9cf2e6d45"
+  }
+}

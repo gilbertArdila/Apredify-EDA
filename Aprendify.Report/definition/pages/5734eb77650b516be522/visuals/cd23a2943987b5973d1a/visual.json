@@ -1,0 +1,180 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.6.0/schema.json",
+  "name": "cd23a2943987b5973d1a",
+  "position": {
+    "x": 14.962593516209475,
+    "y": 508.72817955112214,
+    "z": 2000,
+    "height": 310.47381546134659,
+    "width": 684.5386533665835,
+    "tabOrder": 2000
+  },
+  "visual": {
+    "visualType": "textbox",
+    "objects": {
+      "general": [
+        {
+          "properties": {
+            "paragraphs": [
+              {
+                "textRuns": [
+                  {
+                    "value": "Interpretación estadística",
+                    "textStyle": {
+                      "fontWeight": "bold"
+                    }
+                  }
+                ],
+                "horizontalTextAlignment": "center"
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "La "
+                  },
+                  {
+                    "value": "frecuencia promedio de uso de AprendiFy es de 4.95 horas semanales",
+                    "textStyle": {
+                      "fontWeight": "bold"
+                    }
+                  },
+                  {
+                    "value": ", lo que indica que, en general, los estudiantes utilizan la plataforma alrededor de "
+                  },
+                  {
+                    "value": "cinco horas por semana",
+                    "textStyle": {
+                      "fontWeight": "bold"
+                    }
+                  },
+                  {
+                    "value": ". La "
+                  },
+                  {
+                    "value": "mediana de 4.90 horas",
+                    "textStyle": {
+                      "fontWeight": "bold"
+                    }
+                  },
+                  {
+                    "value": " es prácticamente igual a la media, lo que sugiere que la distribución del uso es relativamente equilibrada y que no existen valores extremos que alteren significativamente el promedio."
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "El "
+                  },
+                  {
+                    "value": "histograma muestra que la mayor concentración de usuarios se encuentra entre 2 y 6 horas de uso semanal",
+                    "textStyle": {
+                      "fontWeight": "bold"
+                    }
+                  },
+                  {
+                    "value": ", con el punto máximo en el intervalo de "
+                  },
+                  {
+                    "value": "4 horas",
+                    "textStyle": {
+                      "fontWeight": "bold"
+                    }
+                  },
+                  {
+                    "value": ", donde se registra la mayor cantidad de estudiantes activos. La "
+                  },
+                  {
+                    "value": "curva de frecuencia relativa",
+                    "textStyle": {
+                      "fontWeight": "bold"
+                    }
+                  },
+                  {
+                    "value": " confirma este patrón, mostrando que aproximadamente "
+                  },
+                  {
+                    "value": "el 35 % de los usuarios se ubica en este nivel de uso",
+                    "textStyle": {
+                      "fontWeight": "bold"
+                    }
+                  },
+                  {
+                    "value": "."
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "A medida que el número de horas aumenta, la frecuencia disminuye progresivamente. Los usuarios que utilizan la plataforma "
+                  },
+                  {
+                    "value": "más de 8 horas por semana representan una proporción considerablemente menor",
+                    "textStyle": {
+                      "fontWeight": "bold"
+                    }
+                  },
+                  {
+                    "value": ", lo que indica que los niveles de uso intensivo son menos comunes."
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "La "
+                  },
+                  {
+                    "value": "moda de 0 horas",
+                    "textStyle": {
+                      "fontWeight": "bold"
+                    }
+                  },
+                  {
+                    "value": " revela que existe un grupo de usuarios que reporta "
+                  },
+                  {
+                    "value": "no utilizar la plataforma durante la semana",
+                    "textStyle": {
+                      "fontWeight": "bold"
+                    }
+                  },
+                  {
+                    "value": ", lo que podría reflejar casos de baja participación o abandono temporal de los cursos."
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "En conjunto, los resultados sugieren que el uso de la plataforma es "
+                  },
+                  {
+                    "value": "moderado para la mayoría de los estudiantes",
+                    "textStyle": {
+                      "fontWeight": "bold"
+                    }
+                  },
+                  {
+                    "value": ", con un núcleo de usuarios activos que interactúan regularmente entre "
+                  },
+                  {
+                    "value": "2 y 6 horas semanales",
+                    "textStyle": {
+                      "fontWeight": "bold"
+                    }
+                  },
+                  {
+                    "value": ", mientras que existe un segmento más pequeño con niveles muy bajos o muy altos de actividad."
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  }
+}
