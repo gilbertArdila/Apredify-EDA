@@ -1,0 +1,119 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.6.0/schema.json",
+  "name": "58e36f8fe729eb491a08",
+  "position": {
+    "x": 0,
+    "y": 537,
+    "z": 10004,
+    "height": 354,
+    "width": 641,
+    "tabOrder": 10004
+  },
+  "visual": {
+    "visualType": "textbox",
+    "objects": {
+      "general": [
+        {
+          "properties": {
+            "paragraphs": [
+              {
+                "textRuns": [
+                  {
+                    "value": "Interpretación estadística — Histograma del número de cursos iniciados",
+                    "textStyle": {
+                      "fontWeight": "bold"
+                    }
+                  }
+                ],
+                "horizontalTextAlignment": "center"
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "El histograma muestra la "
+                  },
+                  {
+                    "value": "distribución del número de cursos iniciados por los usuarios de la plataforma",
+                    "textStyle": {
+                      "fontWeight": "bold"
+                    }
+                  },
+                  {
+                    "value": ". La mayor concentración de usuarios se observa entre "
+                  },
+                  {
+                    "value": "3 y 5 cursos iniciados",
+                    "textStyle": {
+                      "fontWeight": "bold"
+                    }
+                  },
+                  {
+                    "value": ", lo que indica que la mayoría de los participantes tiende a iniciar varios cursos dentro de la plataforma, aunque sin llegar a niveles muy elevados de actividad."
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Las medidas de tendencia central reflejan un comportamiento consistente. La "
+                  },
+                  {
+                    "value": "media (4,02), la mediana (4,00) y la moda (4)",
+                    "textStyle": {
+                      "fontWeight": "bold"
+                    }
+                  },
+                  {
+                    "value": " presentan valores prácticamente iguales, lo que sugiere que la distribución es "
+                  },
+                  {
+                    "value": "relativamente simétrica",
+                    "textStyle": {
+                      "fontWeight": "bold"
+                    }
+                  },
+                  {
+                    "value": " y que el número de cursos más representativo dentro de la muestra es de aproximadamente cuatro cursos por usuario."
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "El "
+                  },
+                  {
+                    "value": "rango de 9 cursos",
+                    "textStyle": {
+                      "fontWeight": "bold"
+                    }
+                  },
+                  {
+                    "value": " indica que existe cierta variabilidad en el comportamiento de los usuarios, ya que algunos inician muy pocos cursos mientras que otros presentan niveles de participación más altos. Esta dispersión también se refleja en la "
+                  },
+                  {
+                    "value": "desviación estándar de 1,89",
+                    "textStyle": {
+                      "fontWeight": "bold"
+                    }
+                  },
+                  {
+                    "value": ", lo que indica que, en promedio, el número de cursos iniciados por los usuarios se desvía alrededor de dos cursos respecto al valor medio."
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "En conjunto, la distribución sugiere que los usuarios suelen explorar varios cursos dentro de la plataforma, con un patrón de participación relativamente equilibrado alrededor de cuatro cursos iniciados."
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  }
+}

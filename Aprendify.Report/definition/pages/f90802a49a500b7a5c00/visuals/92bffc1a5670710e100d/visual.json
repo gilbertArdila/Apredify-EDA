@@ -1,0 +1,59 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.6.0/schema.json",
+  "name": "92bffc1a5670710e100d",
+  "position": {
+    "x": 0,
+    "y": 43.008,
+    "z": 10006,
+    "height": 69.632,
+    "width": 215.04,
+    "tabOrder": 10005
+  },
+  "visual": {
+    "visualType": "slicer",
+    "query": {
+      "queryState": {
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Encuesta"
+                    }
+                  },
+                  "Property": "tipo suscripcion"
+                }
+              },
+              "queryRef": "Encuesta.tipo suscripcion",
+              "nativeQueryRef": "tipo suscripcion",
+              "active": true
+            }
+          ]
+        }
+      }
+    },
+    "objects": {
+      "data": [
+        {
+          "properties": {
+            "mode": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Dropdown'"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "general": [
+        {
+          "properties": {}
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  }
+}

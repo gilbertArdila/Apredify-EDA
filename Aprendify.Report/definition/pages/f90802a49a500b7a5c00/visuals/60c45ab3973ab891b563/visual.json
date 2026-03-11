@@ -2,11 +2,11 @@
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.6.0/schema.json",
   "name": "60c45ab3973ab891b563",
   "position": {
-    "x": 0,
-    "y": 43.190184049079754,
+    "x": 725.700861393892,
+    "y": 43.101018010963195,
     "z": 8000,
-    "height": 179.6319018404908,
-    "width": 362.20858895705521,
+    "height": 118.27721221613156,
+    "width": 554.299138606108,
     "tabOrder": 8000
   },
   "visual": {
@@ -104,6 +104,36 @@
               "queryRef": "Encuesta.DesvStd_tasa_completitud_porcentaje",
               "nativeQueryRef": "DesvStd",
               "displayName": "DesvStd"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Encuesta"
+                    }
+                  },
+                  "Property": "Correlacion_Uso_Completitud"
+                }
+              },
+              "queryRef": "Encuesta.Correlacion_Uso_Completitud",
+              "nativeQueryRef": "Coeficiente de correlación",
+              "displayName": "Coeficiente de correlación"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Encuesta"
+                    }
+                  },
+                  "Property": "R2_Frecuencia_Completitud"
+                }
+              },
+              "queryRef": "Encuesta.R2_Frecuencia_Completitud",
+              "nativeQueryRef": "Frecuencia Completitud",
+              "displayName": "Frecuencia Completitud"
             }
           ]
         }
@@ -125,6 +155,38 @@
           }
         ]
       }
+    },
+    "objects": {
+      "columnWidth": [
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "104.86138506750905D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "Encuesta.Correlacion_Uso_Completitud"
+          }
+        },
+        {
+          "properties": {
+            "value": {
+              "expr": {
+                "Literal": {
+                  "Value": "83.84494909945184D"
+                }
+              }
+            }
+          },
+          "selector": {
+            "metadata": "Encuesta.R2_Frecuencia_Completitud"
+          }
+        }
+      ]
     },
     "visualContainerObjects": {
       "title": [

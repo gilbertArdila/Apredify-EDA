@@ -2,11 +2,11 @@
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.6.0/schema.json",
   "name": "d3ed61752d440739e829",
   "position": {
-    "x": 555.58282208588957,
+    "x": 366.85982772122162,
     "y": 0,
     "z": 10000,
-    "height": 43.190184049079754,
-    "width": 339.6319018404908,
+    "height": 53.124510571652308,
+    "width": 469.09945184025059,
     "tabOrder": 10000
   },
   "visual": {
@@ -19,11 +19,19 @@
               {
                 "textRuns": [
                   {
-                    "value": "Estadística Descriptiva de Usuarios",
+                    "value": "Análisis Estadístico de los cursos iniciados",
                     "textStyle": {
                       "fontWeight": "bold",
                       "fontSize": "14pt"
                     }
+                  }
+                ],
+                "horizontalTextAlignment": "center"
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": ""
                   }
                 ]
               }

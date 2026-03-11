@@ -2,11 +2,11 @@
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.6.0/schema.json",
   "name": "481abbf4e7e764852414",
   "position": {
-    "x": 555.58282208588957,
+    "x": 271.36,
     "y": 0,
     "z": 10000,
-    "height": 43.190184049079754,
-    "width": 339.6319018404908,
+    "height": 53.248,
+    "width": 537.6,
     "tabOrder": 10000
   },
   "visual": {
@@ -19,11 +19,19 @@
               {
                 "textRuns": [
                   {
-                    "value": "Estadística Descriptiva de Usuarios",
+                    "value": "Análisis Estadístico de la Tasa de Completitud de Cursos",
                     "textStyle": {
                       "fontWeight": "bold",
                       "fontSize": "14pt"
                     }
+                  }
+                ],
+                "horizontalTextAlignment": "center"
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": ""
                   }
                 ]
               }

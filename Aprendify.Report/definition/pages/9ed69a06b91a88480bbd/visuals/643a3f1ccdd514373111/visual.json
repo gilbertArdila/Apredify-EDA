@@ -1,0 +1,92 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.6.0/schema.json",
+  "name": "643a3f1ccdd514373111",
+  "position": {
+    "x": 666,
+    "y": 537,
+    "z": 10005,
+    "height": 354,
+    "width": 614,
+    "tabOrder": 10005
+  },
+  "visual": {
+    "visualType": "textbox",
+    "objects": {
+      "general": [
+        {
+          "properties": {
+            "paragraphs": [
+              {
+                "textRuns": [
+                  {
+                    "value": "Interpretación estadística — Gráfico de dispersión (frecuencia de uso vs cursos iniciados)",
+                    "textStyle": {
+                      "fontWeight": "bold"
+                    }
+                  }
+                ],
+                "horizontalTextAlignment": "center"
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "El gráfico de dispersión analiza la relación entre la "
+                  },
+                  {
+                    "value": "frecuencia de uso semanal de la plataforma (horas)",
+                    "textStyle": {
+                      "fontWeight": "bold"
+                    }
+                  },
+                  {
+                    "value": " y el "
+                  },
+                  {
+                    "value": "número de cursos iniciados por los usuarios",
+                    "textStyle": {
+                      "fontWeight": "bold"
+                    }
+                  },
+                  {
+                    "value": ". La nube de puntos muestra una tendencia general ascendente, lo que sugiere que los usuarios que dedican más tiempo a utilizar la plataforma tienden a iniciar una mayor cantidad de cursos."
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Sin embargo, la dispersión observada entre los puntos indica que esta relación no es completamente uniforme. Existen usuarios que, a pesar de tener una frecuencia de uso relativamente alta, inician pocos cursos, así como otros que con niveles moderados de uso han iniciado varias actividades de aprendizaje."
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Este comportamiento sugiere que, aunque el tiempo de uso de la plataforma puede influir en el número de cursos iniciados, también intervienen otros factores en la decisión de comenzar nuevas actividades formativas, como el interés por los contenidos, la relevancia de los materiales o las características individuales de los usuarios."
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "En términos generales, el análisis indica que "
+                  },
+                  {
+                    "value": "una mayor interacción con la plataforma tiende a asociarse con una mayor exploración de cursos",
+                    "textStyle": {
+                      "fontWeight": "bold"
+                    }
+                  },
+                  {
+                    "value": ", aunque la relación presenta variabilidad entre los diferentes perfiles de usuario."
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  }
+}

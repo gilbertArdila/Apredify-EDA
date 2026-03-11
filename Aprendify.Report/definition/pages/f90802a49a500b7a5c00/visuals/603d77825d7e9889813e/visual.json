@@ -1,0 +1,128 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.6.0/schema.json",
+  "name": "603d77825d7e9889813e",
+  "position": {
+    "x": 0,
+    "y": 496.64,
+    "z": 10004,
+    "height": 326.656,
+    "width": 724.992,
+    "tabOrder": 10003
+  },
+  "visual": {
+    "visualType": "textbox",
+    "objects": {
+      "general": [
+        {
+          "properties": {
+            "paragraphs": [
+              {
+                "textRuns": [
+                  {
+                    "value": "Interpretación estadística — Histograma de tasa de completitud",
+                    "textStyle": {
+                      "fontWeight": "bold"
+                    }
+                  }
+                ],
+                "horizontalTextAlignment": "center"
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "El histograma muestra la "
+                  },
+                  {
+                    "value": "distribución de la tasa de completitud de cursos entre los usuarios de la plataforma",
+                    "textStyle": {
+                      "fontWeight": "bold"
+                    }
+                  },
+                  {
+                    "value": ". La forma de la distribución presenta una concentración principal de usuarios entre "
+                  },
+                  {
+                    "value": "50 % y 75 % de completitud",
+                    "textStyle": {
+                      "fontWeight": "bold"
+                    }
+                  },
+                  {
+                    "value": ", lo que indica que la mayoría de los estudiantes logra finalizar una proporción significativa de los cursos que inicia."
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Las medidas de tendencia central refuerzan este comportamiento. La "
+                  },
+                  {
+                    "value": "media (63,07 %) y la mediana (63,00 %)",
+                    "textStyle": {
+                      "fontWeight": "bold"
+                    }
+                  },
+                  {
+                    "value": " son prácticamente iguales, lo que sugiere que la distribución es "
+                  },
+                  {
+                    "value": "relativamente simétrica",
+                    "textStyle": {
+                      "fontWeight": "bold"
+                    }
+                  },
+                  {
+                    "value": " y no presenta un sesgo marcado hacia valores muy bajos o muy altos. La "
+                  },
+                  {
+                    "value": "moda (71 %)",
+                    "textStyle": {
+                      "fontWeight": "bold"
+                    }
+                  },
+                  {
+                    "value": " indica que el nivel de completitud más frecuente se encuentra ligeramente por encima del promedio, lo que evidencia que un grupo considerable de usuarios alcanza niveles relativamente altos de finalización de cursos."
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "El "
+                  },
+                  {
+                    "value": "rango de 87 puntos porcentuales",
+                    "textStyle": {
+                      "fontWeight": "bold"
+                    }
+                  },
+                  {
+                    "value": " refleja que existe una variabilidad importante en los niveles de completitud entre los usuarios. Esta dispersión también se observa en la "
+                  },
+                  {
+                    "value": "desviación estándar de 15,53",
+                    "textStyle": {
+                      "fontWeight": "bold"
+                    }
+                  },
+                  {
+                    "value": ", lo que indica que, aunque el comportamiento promedio se sitúa alrededor del 63 %, los valores individuales pueden diferir de forma moderada respecto a este promedio."
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "En conjunto, la distribución sugiere que la plataforma logra mantener niveles de completitud relativamente altos en una proporción significativa de usuarios, aunque también existe heterogeneidad en los patrones de finalización de cursos."
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  }
+}

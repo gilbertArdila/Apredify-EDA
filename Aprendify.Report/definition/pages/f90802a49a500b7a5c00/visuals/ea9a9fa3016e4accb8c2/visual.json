@@ -1,0 +1,137 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.6.0/schema.json",
+  "name": "ea9a9fa3016e4accb8c2",
+  "position": {
+    "x": 726.016,
+    "y": 499.712,
+    "z": 10005,
+    "height": 339.968,
+    "width": 553.984,
+    "tabOrder": 10004
+  },
+  "visual": {
+    "visualType": "textbox",
+    "objects": {
+      "general": [
+        {
+          "properties": {
+            "paragraphs": [
+              {
+                "textRuns": [
+                  {
+                    "value": "Interpretación estadística — Gráfico de dispersión (frecuencia de uso vs completitud)",
+                    "textStyle": {
+                      "fontWeight": "bold"
+                    }
+                  }
+                ],
+                "horizontalTextAlignment": "center"
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "El gráfico de dispersión analiza la relación entre la "
+                  },
+                  {
+                    "value": "frecuencia de uso semanal de la plataforma (horas)",
+                    "textStyle": {
+                      "fontWeight": "bold"
+                    }
+                  },
+                  {
+                    "value": " y la "
+                  },
+                  {
+                    "value": "tasa de completitud de cursos (%)",
+                    "textStyle": {
+                      "fontWeight": "bold"
+                    }
+                  },
+                  {
+                    "value": ". La nube de puntos presenta una "
+                  },
+                  {
+                    "value": "tendencia ascendente",
+                    "textStyle": {
+                      "fontWeight": "bold"
+                    }
+                  },
+                  {
+                    "value": ", lo que indica que, en general, los usuarios que utilizan la plataforma con mayor frecuencia tienden a completar una mayor proporción de los cursos que inician."
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "El "
+                  },
+                  {
+                    "value": "coeficiente de correlación (r = 0,33)",
+                    "textStyle": {
+                      "fontWeight": "bold"
+                    }
+                  },
+                  {
+                    "value": " confirma la existencia de una "
+                  },
+                  {
+                    "value": "relación positiva de intensidad débil a moderada",
+                    "textStyle": {
+                      "fontWeight": "bold"
+                    }
+                  },
+                  {
+                    "value": " entre ambas variables. Esto significa que, aunque la frecuencia de uso contribuye a explicar el nivel de completitud, no es el único factor determinante."
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "El "
+                  },
+                  {
+                    "value": "coeficiente de determinación (R² ≈ 0,11)",
+                    "textStyle": {
+                      "fontWeight": "bold"
+                    }
+                  },
+                  {
+                    "value": " indica que aproximadamente "
+                  },
+                  {
+                    "value": "el 11 % de la variabilidad en la tasa de completitud puede explicarse por la frecuencia de uso semanal",
+                    "textStyle": {
+                      "fontWeight": "bold"
+                    }
+                  },
+                  {
+                    "value": ". El restante porcentaje de la variación probablemente se relaciona con otros factores presentes en la plataforma, como la calidad del contenido, la facilidad de uso, el nivel de interactividad o las características individuales de los usuarios."
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "En términos generales, el análisis sugiere que "
+                  },
+                  {
+                    "value": "un mayor nivel de interacción con la plataforma está asociado con mejores resultados en la finalización de cursos",
+                    "textStyle": {
+                      "fontWeight": "bold"
+                    }
+                  },
+                  {
+                    "value": ", aunque la relación observada no es suficientemente fuerte para explicar por sí sola el comportamiento de completitud."
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  }
+}

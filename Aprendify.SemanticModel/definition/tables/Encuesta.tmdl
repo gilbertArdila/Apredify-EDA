@@ -310,6 +310,112 @@ table Encuesta
 		formatString: #,0.00
 		lineageTag: bb0699da-c7b0-458c-b916-59858e298242
 
+	measure Frecuencia_relativa_completitud =
+			
+			DIVIDE(
+			    COUNT('Encuesta'[tasa completitud porcentaje]),
+			    CALCULATE(
+			        COUNT('Encuesta'[tasa completitud porcentaje]),
+			        ALL('Encuesta')
+			    )
+			)
+		formatString: 0.00\ %;-0.00\ %;0.00\ %
+		lineageTag: 3a2925d2-38f1-4c05-9f7e-6e260c738a18
+
+	measure Correlacion_Uso_Completitud =
+			
+			VAR TablaBase =
+			    ADDCOLUMNS(
+			        'Encuesta',
+			        "X", 'Encuesta'[frecuencia uso horas],
+			        "Y", 'Encuesta'[tasa completitud porcentaje]
+			    )
+			
+			VAR MediaX =
+			    AVERAGEX(TablaBase, [X])
+			
+			VAR MediaY =
+			    AVERAGEX(TablaBase, [Y])
+			
+			VAR Numerador =
+			    SUMX(
+			        TablaBase,
+			        ([X] - MediaX) * ([Y] - MediaY)
+			    )
+			
+			VAR DenX =
+			    SQRT(
+			        SUMX(
+			            TablaBase,
+			            POWER([X] - MediaX, 2)
+			        )
+			    )
+			
+			VAR DenY =
+			    SQRT(
+			        SUMX(
+			            TablaBase,
+			            POWER([Y] - MediaY, 2)
+			        )
+			    )
+			
+			RETURN
+			DIVIDE(Numerador, DenX * DenY)
+		lineageTag: df815d28-e034-48a8-b0c8-3a3e9c5337de
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure R2_Frecuencia_Completitud =
+			
+			POWER([Correlacion_Frecuencia_Completitud],2)
+		lineageTag: 30a81e08-4aa6-4a7c-949c-42d82045ca86
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure Correlacion_Frecuencia_Completitud =
+			
+			VAR TablaBase =
+			    ADDCOLUMNS(
+			        ALLSELECTED('Encuesta'),
+			        "x", 'Encuesta'[frecuencia uso horas],
+			        "y", 'Encuesta'[tasa completitud porcentaje]
+			    )
+			
+			VAR PromedioX =
+			    AVERAGEX(TablaBase,[x])
+			
+			VAR PromedioY =
+			    AVERAGEX(TablaBase,[y])
+			
+			VAR Numerador =
+			    SUMX(
+			        TablaBase,
+			        ([x]-PromedioX)*([y]-PromedioY)
+			    )
+			
+			VAR Denominador =
+			    SQRT(
+			        SUMX(TablaBase,([x]-PromedioX)^2) *
+			        SUMX(TablaBase,([y]-PromedioY)^2)
+			    )
+			
+			RETURN
+			DIVIDE(Numerador,Denominador)
+		lineageTag: 7a144c63-f88b-42b7-9537-764af3e380d6
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure Frecuencia_relativa_cursos_iniciados =
+			DIVIDE(
+			    COUNT('Encuesta'[numero cursos iniciados]),
+			    CALCULATE(
+			        COUNT('Encuesta'[numero cursos iniciados (grupos)]),
+			        ALL('Encuesta')
+			    ))
+		lineageTag: c60c997e-2d65-4af9-962a-fadef62cb0d9
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
 	column 'antiguedad meses'
 		dataType: int64
 		formatString: 0
@@ -387,6 +493,8 @@ table Encuesta
 
 		annotation SummarizationSetBy = Automatic
 
+		annotation __PBI_SemanticLinks = [{"LinkTarget":{"TableName":"Encuesta","TableItemName":"tasa completitud porcentaje (intervalos)","ObjectType":4},"LinkType":"UsedInGroup"}]
+
 	column 'numero cursos iniciados'
 		dataType: int64
 		formatString: 0
@@ -395,6 +503,8 @@ table Encuesta
 		sourceColumn: numero cursos iniciados
 
 		annotation SummarizationSetBy = Automatic
+
+		annotation __PBI_SemanticLinks = [{"LinkTarget":{"TableName":"Encuesta","TableItemName":"numero cursos iniciados (grupos)","ObjectType":4},"LinkType":"UsedInGroup"}]
 
 	column 'tipo suscripcion'
 		dataType: string
@@ -490,6 +600,80 @@ table Encuesta
 		annotation SummarizationSetBy = Automatic
 
 		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column 'tasa completitud porcentaje (intervalos)' =
+			IF(
+				ISBLANK('Encuesta'[tasa completitud porcentaje]),
+				BLANK(),
+				INT('Encuesta'[tasa completitud porcentaje] / 10) * 10
+			)
+		formatString: 0
+		lineageTag: 7b5cadb1-46c9-4035-add9-b7d7fc8399ee
+		summarizeBy: none
+
+		extendedProperty GroupingMetadata =
+				{
+				  "version": 0,
+				  "groupedColumns": [
+				    {
+				      "Column": {
+				        "Expression": {
+				          "SourceRef": {
+				            "Entity": "Encuesta"
+				          }
+				        },
+				        "Property": "tasa completitud porcentaje"
+				      }
+				    }
+				  ],
+				  "binningMetadata": {
+				    "binSize": {
+				      "value": 10.0,
+				      "unit": 0
+				    }
+				  }
+				}
+
+		annotation GroupingDesignState = {"Version":0,"Sources":[{"Name":"e","Entity":"Encuesta"}],"GroupedColumns":[{"Column":{"Expression":{"SourceRef":{"Source":"e"}},"Property":"tasa completitud porcentaje"}}],"BinItem":{"Expression":{"Floor":{"Expression":{"Column":{"Expression":{"SourceRef":{"Source":"e"}},"Property":"tasa completitud porcentaje"}},"Size":10.0}}}}
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'numero cursos iniciados (grupos)' =
+			IF(
+				ISBLANK('Encuesta'[numero cursos iniciados]),
+				BLANK(),
+				INT('Encuesta'[numero cursos iniciados])
+			)
+		formatString: 0
+		lineageTag: 89a88c12-df4a-45df-a080-5182e0ddd677
+		summarizeBy: none
+
+		extendedProperty GroupingMetadata =
+				{
+				  "version": 0,
+				  "groupedColumns": [
+				    {
+				      "Column": {
+				        "Expression": {
+				          "SourceRef": {
+				            "Entity": "Encuesta"
+				          }
+				        },
+				        "Property": "numero cursos iniciados"
+				      }
+				    }
+				  ],
+				  "binningMetadata": {
+				    "binSize": {
+				      "value": 1.0,
+				      "unit": 0
+				    }
+				  }
+				}
+
+		annotation GroupingDesignState = {"Version":0,"Sources":[{"Name":"e","Entity":"Encuesta"}],"GroupedColumns":[{"Column":{"Expression":{"SourceRef":{"Source":"e"}},"Property":"numero cursos iniciados"}}],"BinItem":{"Expression":{"Floor":{"Expression":{"Column":{"Expression":{"SourceRef":{"Source":"e"}},"Property":"numero cursos iniciados"}},"Size":1.0}}}}
+
+		annotation SummarizationSetBy = Automatic
 
 	partition Encuesta = m
 		mode: import
