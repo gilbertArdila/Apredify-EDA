@@ -1,19 +1,19 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.6.0/schema.json",
-  "name": "17798f1786070baed156",
+  "name": "1b03794c91ba6977e0d7",
   "position": {
-    "x": 22.335570469798657,
-    "y": 0,
-    "z": 1000,
-    "height": 171.81208053691276,
-    "width": 213.90604026845637,
-    "tabOrder": 1000
+    "x": 980.31746031746036,
+    "y": 176.76190476190476,
+    "z": 1002,
+    "height": 329.14285714285717,
+    "width": 299.6825396825397,
+    "tabOrder": 1002
   },
   "visual": {
-    "visualType": "tableEx",
+    "visualType": "clusteredColumnChart",
     "query": {
       "queryState": {
-        "Values": {
+        "Category": {
           "projections": [
             {
               "field": {
@@ -23,33 +23,18 @@
                       "Entity": "Encuesta"
                     }
                   },
-                  "Property": "intencion renovar"
+                  "Property": "tipo suscripcion"
                 }
               },
-              "queryRef": "Encuesta.intencion renovar",
-              "nativeQueryRef": "Intención",
-              "displayName": "Intención"
-            },
-            {
-              "field": {
-                "Aggregation": {
-                  "Expression": {
-                    "Column": {
-                      "Expression": {
-                        "SourceRef": {
-                          "Entity": "Encuesta"
-                        }
-                      },
-                      "Property": "intencion renovar"
-                    }
-                  },
-                  "Function": 5
-                }
-              },
-              "queryRef": "CountNonNull(Encuesta.intencion renovar)",
-              "nativeQueryRef": "Absoluta",
-              "displayName": "Absoluta"
-            },
+              "queryRef": "Encuesta.tipo suscripcion",
+              "nativeQueryRef": "Tipo suscripción",
+              "active": true,
+              "displayName": "Tipo suscripción"
+            }
+          ]
+        },
+        "Y": {
+          "projections": [
             {
               "field": {
                 "Measure": {
@@ -58,50 +43,50 @@
                       "Entity": "Encuesta"
                     }
                   },
-                  "Property": "frecuencia_intencion_renovar"
+                  "Property": "tamaño encuesta"
                 }
               },
-              "queryRef": "Encuesta.frecuencia_intencion_renovar",
-              "nativeQueryRef": "Relativa",
-              "displayName": "Relativa"
+              "queryRef": "Encuesta.tamaño encuesta",
+              "nativeQueryRef": "Número de usuarios",
+              "displayName": "Número de usuarios"
             }
           ]
         }
-      }
-    },
-    "objects": {
-      "columnFormatting": [
-        {
-          "properties": {
-            "styleValues": {
-              "expr": {
-                "Literal": {
-                  "Value": "true"
-                }
+      },
+      "sortDefinition": {
+        "sort": [
+          {
+            "field": {
+              "Measure": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "Encuesta"
+                  }
+                },
+                "Property": "tamaño encuesta"
               }
-            }
-          },
-          "selector": {
-            "metadata": "Encuesta.intencion renovar"
+            },
+            "direction": "Descending"
           }
-        }
-      ]
+        ],
+        "isDefaultSort": true
+      }
     },
     "visualContainerObjects": {
       "title": [
         {
           "properties": {
-            "show": {
+            "titleWrap": {
               "expr": {
                 "Literal": {
                   "Value": "true"
                 }
               }
             },
-            "text": {
+            "alignment": {
               "expr": {
                 "Literal": {
-                  "Value": "'Intención Renovar'"
+                  "Value": "'center'"
                 }
               }
             },
@@ -112,10 +97,10 @@
                 }
               }
             },
-            "alignment": {
+            "text": {
               "expr": {
                 "Literal": {
-                  "Value": "'center'"
+                  "Value": "'Distribución de los usuarios según tipo de suscripción'"
                 }
               }
             }
@@ -141,6 +126,39 @@
                       "Percent": 0
                     }
                   }
+                }
+              }
+            }
+          }
+        }
+      ],
+      "background": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "transparency": {
+              "expr": {
+                "Literal": {
+                  "Value": "0D"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "border": [
+        {
+          "properties": {
+            "width": {
+              "expr": {
+                "Literal": {
+                  "Value": "1D"
                 }
               }
             }

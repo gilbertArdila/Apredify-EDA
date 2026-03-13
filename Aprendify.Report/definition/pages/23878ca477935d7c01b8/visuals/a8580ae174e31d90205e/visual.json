@@ -1,0 +1,165 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.6.0/schema.json",
+  "name": "a8580ae174e31d90205e",
+  "position": {
+    "x": 44.671140939597315,
+    "y": 588.45637583892619,
+    "z": 1009,
+    "height": 269.744966442953,
+    "width": 1209.5570469798658,
+    "tabOrder": 1009
+  },
+  "visual": {
+    "visualType": "textbox",
+    "objects": {
+      "general": [
+        {
+          "properties": {
+            "paragraphs": [
+              {
+                "textRuns": [
+                  {
+                    "value": "Conclusión analítica — Fidelización de usuarios",
+                    "textStyle": {
+                      "fontWeight": "bold"
+                    }
+                  }
+                ],
+                "horizontalTextAlignment": "center"
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "El análisis del tipo de suscripción y su relación con el comportamiento de los usuarios permite identificar patrones relevantes en términos de compromiso y fidelización dentro de la plataforma AprendiFy. En primer lugar, se observa que los usuarios con suscripción Premium presentan una "
+                  },
+                  {
+                    "value": "tasa promedio de completitud de cursos de 70.57%",
+                    "textStyle": {
+                      "fontWeight": "bold"
+                    }
+                  },
+                  {
+                    "value": ", mientras que los usuarios del plan Básico alcanzan "
+                  },
+                  {
+                    "value": "59.84%",
+                    "textStyle": {
+                      "fontWeight": "bold"
+                    }
+                  },
+                  {
+                    "value": ", lo que representa una diferencia de aproximadamente "
+                  },
+                  {
+                    "value": "10.7 puntos porcentuales",
+                    "textStyle": {
+                      "fontWeight": "bold"
+                    }
+                  },
+                  {
+                    "value": " a favor del plan Premium. Este resultado sugiere que los usuarios Premium tienden a finalizar una mayor proporción de los cursos que inician, lo que indica un mayor nivel de compromiso con el proceso de aprendizaje."
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "En contraste, el análisis de la "
+                  },
+                  {
+                    "value": "frecuencia de uso semanal",
+                    "textStyle": {
+                      "fontWeight": "bold"
+                    }
+                  },
+                  {
+                    "value": " muestra que ambos grupos presentan niveles prácticamente iguales de interacción con la plataforma. Los usuarios Premium registran una media de "
+                  },
+                  {
+                    "value": "4.93 horas de uso semanal",
+                    "textStyle": {
+                      "fontWeight": "bold"
+                    }
+                  },
+                  {
+                    "value": ", mientras que los usuarios con suscripción Básica presentan una media muy similar de "
+                  },
+                  {
+                    "value": "4.96 horas",
+                    "textStyle": {
+                      "fontWeight": "bold"
+                    }
+                  },
+                  {
+                    "value": ", lo que indica que el tiempo de uso de la plataforma no varía de forma significativa según el tipo de suscripción."
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Por otra parte, el análisis de la "
+                  },
+                  {
+                    "value": "intención de renovación",
+                    "textStyle": {
+                      "fontWeight": "bold"
+                    }
+                  },
+                  {
+                    "value": " evidencia una diferencia clara entre ambos grupos. Entre los usuarios Premium, "
+                  },
+                  {
+                    "value": "el 71.94% manifiesta intención de renovar su suscripción",
+                    "textStyle": {
+                      "fontWeight": "bold"
+                    }
+                  },
+                  {
+                    "value": ", mientras que "
+                  },
+                  {
+                    "value": "el 58.59% de los usuarios del plan Básico",
+                    "textStyle": {
+                      "fontWeight": "bold"
+                    }
+                  },
+                  {
+                    "value": " expresa la misma intención. Esta diferencia sugiere que los usuarios Premium presentan una mayor probabilidad de continuar utilizando el servicio en el futuro."
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "En conjunto, estos resultados indican que "
+                  },
+                  {
+                    "value": "el tipo de suscripción está asociado con el nivel de compromiso y fidelización de los usuarios en la plataforma",
+                    "textStyle": {
+                      "fontWeight": "bold"
+                    }
+                  },
+                  {
+                    "value": ". Aunque los usuarios Premium no necesariamente utilizan la plataforma durante más tiempo, sí tienden a completar una mayor proporción de cursos y muestran una mayor intención de renovar su suscripción. Esto sugiere que la fidelización de los usuarios está más relacionada con el "
+                  },
+                  {
+                    "value": "progreso y la finalización de los cursos",
+                    "textStyle": {
+                      "fontWeight": "bold"
+                    }
+                  },
+                  {
+                    "value": " que con la cantidad de tiempo que pasan utilizando la plataforma."
+                  }
+                ],
+                "horizontalTextAlignment": "center"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  }
+}

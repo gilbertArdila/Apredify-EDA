@@ -1,19 +1,19 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.6.0/schema.json",
-  "name": "17798f1786070baed156",
+  "name": "bcf0b8b4d71676ac316a",
   "position": {
-    "x": 22.335570469798657,
-    "y": 0,
-    "z": 1000,
-    "height": 171.81208053691276,
-    "width": 213.90604026845637,
-    "tabOrder": 1000
+    "x": 0,
+    "y": 172.05905205905208,
+    "z": 1001,
+    "height": 329.1996891996892,
+    "width": 299.36285936285941,
+    "tabOrder": 1001
   },
   "visual": {
-    "visualType": "tableEx",
+    "visualType": "clusteredColumnChart",
     "query": {
       "queryState": {
-        "Values": {
+        "Category": {
           "projections": [
             {
               "field": {
@@ -27,29 +27,14 @@
                 }
               },
               "queryRef": "Encuesta.intencion renovar",
-              "nativeQueryRef": "Intención",
-              "displayName": "Intención"
-            },
-            {
-              "field": {
-                "Aggregation": {
-                  "Expression": {
-                    "Column": {
-                      "Expression": {
-                        "SourceRef": {
-                          "Entity": "Encuesta"
-                        }
-                      },
-                      "Property": "intencion renovar"
-                    }
-                  },
-                  "Function": 5
-                }
-              },
-              "queryRef": "CountNonNull(Encuesta.intencion renovar)",
-              "nativeQueryRef": "Absoluta",
-              "displayName": "Absoluta"
-            },
+              "nativeQueryRef": "Desea renovar",
+              "active": true,
+              "displayName": "Desea renovar"
+            }
+          ]
+        },
+        "Y": {
+          "projections": [
             {
               "field": {
                 "Measure": {
@@ -58,50 +43,43 @@
                       "Entity": "Encuesta"
                     }
                   },
-                  "Property": "frecuencia_intencion_renovar"
+                  "Property": "tamaño encuesta"
                 }
               },
-              "queryRef": "Encuesta.frecuencia_intencion_renovar",
-              "nativeQueryRef": "Relativa",
-              "displayName": "Relativa"
+              "queryRef": "Encuesta.tamaño encuesta",
+              "nativeQueryRef": "Número de usuarios",
+              "displayName": "Número de usuarios"
             }
           ]
         }
-      }
-    },
-    "objects": {
-      "columnFormatting": [
-        {
-          "properties": {
-            "styleValues": {
-              "expr": {
-                "Literal": {
-                  "Value": "true"
-                }
+      },
+      "sortDefinition": {
+        "sort": [
+          {
+            "field": {
+              "Measure": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "Encuesta"
+                  }
+                },
+                "Property": "tamaño encuesta"
               }
-            }
-          },
-          "selector": {
-            "metadata": "Encuesta.intencion renovar"
+            },
+            "direction": "Descending"
           }
-        }
-      ]
+        ],
+        "isDefaultSort": true
+      }
     },
     "visualContainerObjects": {
       "title": [
         {
           "properties": {
-            "show": {
-              "expr": {
-                "Literal": {
-                  "Value": "true"
-                }
-              }
-            },
             "text": {
               "expr": {
                 "Literal": {
-                  "Value": "'Intención Renovar'"
+                  "Value": "'Distribución de la intención de renovación de los usuarios'"
                 }
               }
             },

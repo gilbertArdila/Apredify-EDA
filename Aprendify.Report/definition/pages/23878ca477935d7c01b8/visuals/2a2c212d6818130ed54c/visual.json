@@ -1,19 +1,19 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.6.0/schema.json",
-  "name": "17798f1786070baed156",
+  "name": "2a2c212d6818130ed54c",
   "position": {
-    "x": 22.335570469798657,
-    "y": 0,
-    "z": 1000,
-    "height": 171.81208053691276,
-    "width": 213.90604026845637,
-    "tabOrder": 1000
+    "x": 649.44966442953023,
+    "y": 274.04026845637583,
+    "z": 1004,
+    "height": 300.67114093959731,
+    "width": 298.95302013422821,
+    "tabOrder": 1004
   },
   "visual": {
-    "visualType": "tableEx",
+    "visualType": "clusteredColumnChart",
     "query": {
       "queryState": {
-        "Values": {
+        "Category": {
           "projections": [
             {
               "field": {
@@ -23,33 +23,18 @@
                       "Entity": "Encuesta"
                     }
                   },
-                  "Property": "intencion renovar"
+                  "Property": "tipo suscripcion"
                 }
               },
-              "queryRef": "Encuesta.intencion renovar",
-              "nativeQueryRef": "Intención",
-              "displayName": "Intención"
-            },
-            {
-              "field": {
-                "Aggregation": {
-                  "Expression": {
-                    "Column": {
-                      "Expression": {
-                        "SourceRef": {
-                          "Entity": "Encuesta"
-                        }
-                      },
-                      "Property": "intencion renovar"
-                    }
-                  },
-                  "Function": 5
-                }
-              },
-              "queryRef": "CountNonNull(Encuesta.intencion renovar)",
-              "nativeQueryRef": "Absoluta",
-              "displayName": "Absoluta"
-            },
+              "queryRef": "Encuesta.tipo suscripcion",
+              "nativeQueryRef": "Tipo de suscripción",
+              "active": true,
+              "displayName": "Tipo de suscripción"
+            }
+          ]
+        },
+        "Y": {
+          "projections": [
             {
               "field": {
                 "Measure": {
@@ -58,50 +43,42 @@
                       "Entity": "Encuesta"
                     }
                   },
-                  "Property": "frecuencia_intencion_renovar"
+                  "Property": "Media_tasa_completitud_porcentaje"
                 }
               },
-              "queryRef": "Encuesta.frecuencia_intencion_renovar",
-              "nativeQueryRef": "Relativa",
-              "displayName": "Relativa"
+              "queryRef": "Encuesta.Media_tasa_completitud_porcentaje",
+              "nativeQueryRef": "Media_tasa_completitud_porcentaje"
             }
           ]
         }
-      }
-    },
-    "objects": {
-      "columnFormatting": [
-        {
-          "properties": {
-            "styleValues": {
-              "expr": {
-                "Literal": {
-                  "Value": "true"
-                }
+      },
+      "sortDefinition": {
+        "sort": [
+          {
+            "field": {
+              "Measure": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "Encuesta"
+                  }
+                },
+                "Property": "Media_tasa_completitud_porcentaje"
               }
-            }
-          },
-          "selector": {
-            "metadata": "Encuesta.intencion renovar"
+            },
+            "direction": "Descending"
           }
-        }
-      ]
+        ],
+        "isDefaultSort": true
+      }
     },
     "visualContainerObjects": {
       "title": [
         {
           "properties": {
-            "show": {
-              "expr": {
-                "Literal": {
-                  "Value": "true"
-                }
-              }
-            },
             "text": {
               "expr": {
                 "Literal": {
-                  "Value": "'Intención Renovar'"
+                  "Value": "'Tasa promedio de completitud según tipo de suscripción'"
                 }
               }
             },

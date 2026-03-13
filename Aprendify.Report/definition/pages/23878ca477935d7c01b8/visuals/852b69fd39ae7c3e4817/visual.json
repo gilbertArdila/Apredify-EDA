@@ -2,11 +2,11 @@
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.6.0/schema.json",
   "name": "852b69fd39ae7c3e4817",
   "position": {
-    "x": 926.62576687116564,
-    "y": 547.73006134969319,
+    "x": 987.06040268456377,
+    "y": 6.0134228187919465,
     "z": 0,
-    "height": 171.77914110429447,
-    "width": 277.79141104294479,
+    "height": 170.95302013422818,
+    "width": 221.63758389261744,
     "tabOrder": 0
   },
   "visual": {
@@ -85,6 +85,19 @@
             "metadata": "Encuesta.tipo suscripcion"
           }
         }
+      ],
+      "columnHeaders": [
+        {
+          "properties": {
+            "wordWrap": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            }
+          }
+        }
       ]
     },
     "visualContainerObjects": {
@@ -101,7 +114,7 @@
             "text": {
               "expr": {
                 "Literal": {
-                  "Value": "'Frecuencias Tipo Suscripción'"
+                  "Value": "'Tipo Suscripción'"
                 }
               }
             },

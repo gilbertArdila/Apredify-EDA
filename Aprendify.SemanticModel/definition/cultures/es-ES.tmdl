@@ -226,6 +226,26 @@ cultureInfo es-ES
 			          }
 			        },
 			        {
+			          "Tipo suscripción": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        },
+			        {
+			          "Tipo de suscripción": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        },
+			        {
 			          "Suscripción": {
 			            "State": "Suggested",
 			            "Source": {
@@ -253,6 +273,16 @@ cultureInfo es-ES
 			        },
 			        {
 			          "Intención": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        },
+			        {
+			          "Desea renovar": {
 			            "State": "Suggested",
 			            "Source": {
 			              "Type": "External",
@@ -319,6 +349,16 @@ cultureInfo es-ES
 			        },
 			        {
 			          "Media": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        },
+			        {
+			          "Horas promedio de uso semanal": {
 			            "State": "Suggested",
 			            "Source": {
 			              "Type": "External",
@@ -1304,6 +1344,16 @@ cultureInfo es-ES
 			        },
 			        {
 			          "Cantidad de usuarios": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        },
+			        {
+			          "Número de usuarios": {
 			            "State": "Suggested",
 			            "Source": {
 			              "Type": "External",
