@@ -1,0 +1,105 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.6.0/schema.json",
+  "name": "76258c65d57d5759063c",
+  "position": {
+    "x": 840.89775561097258,
+    "y": 610.47381546134659,
+    "z": 7,
+    "height": 285.785536159601,
+    "width": 368.07980049875312,
+    "tabOrder": 7
+  },
+  "visual": {
+    "visualType": "textbox",
+    "objects": {
+      "general": [
+        {
+          "properties": {
+            "paragraphs": [
+              {
+                "textRuns": [
+                  {
+                    "value": "La mayoría de los usuarios mantiene un nivel de actividad moderado",
+                    "textStyle": {
+                      "fontWeight": "bold",
+                      "fontSize": "14pt"
+                    }
+                  }
+                ],
+                "horizontalTextAlignment": "center"
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "El estudio muestra que los usuarios permanecen en promedio "
+                  },
+                  {
+                    "value": "12 meses en la plataforma",
+                    "textStyle": {
+                      "fontWeight": "bold"
+                    }
+                  },
+                  {
+                    "value": ", utilizan el sistema aproximadamente "
+                  },
+                  {
+                    "value": "5 horas semanales",
+                    "textStyle": {
+                      "fontWeight": "bold"
+                    }
+                  },
+                  {
+                    "value": " y suelen iniciar "
+                  },
+                  {
+                    "value": "alrededor de cuatro cursos",
+                    "textStyle": {
+                      "fontWeight": "bold"
+                    }
+                  },
+                  {
+                    "value": "."
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Esto indica que existe un "
+                  },
+                  {
+                    "value": "núcleo estable de usuarios moderadamente activos",
+                    "textStyle": {
+                      "fontWeight": "bold"
+                    }
+                  },
+                  {
+                    "value": ", que interactúa con la plataforma de forma constante, aunque sin llegar a niveles intensivos de uso."
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Insight clave:",
+                    "textStyle": {
+                      "fontWeight": "bold"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "AprendiFy ha logrado construir una base de usuarios activos y relativamente estables, aunque existe potencial para aumentar el nivel de participación y permanencia a largo plazo."
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  }
+}

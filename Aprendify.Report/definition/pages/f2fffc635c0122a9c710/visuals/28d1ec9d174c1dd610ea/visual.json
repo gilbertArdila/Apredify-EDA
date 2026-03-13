@@ -1,0 +1,115 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.6.0/schema.json",
+  "name": "28d1ec9d174c1dd610ea",
+  "position": {
+    "x": 824.43890274314219,
+    "y": 962.09476309226932,
+    "z": 12,
+    "height": 237.90523690773068,
+    "width": 454.86284289276813,
+    "tabOrder": 12
+  },
+  "visual": {
+    "visualType": "textbox",
+    "objects": {
+      "general": [
+        {
+          "properties": {
+            "paragraphs": [
+              {
+                "textRuns": [
+                  {
+                    "value": "Diseñar estrategias de retención para usuarios con mayor antigüedad",
+                    "textStyle": {
+                      "fontWeight": "bold"
+                    }
+                  }
+                ],
+                "horizontalTextAlignment": "center"
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "El análisis muestra que la mayor concentración de usuarios se encuentra dentro del "
+                  },
+                  {
+                    "value": "primer año de uso",
+                    "textStyle": {
+                      "fontWeight": "bold"
+                    }
+                  },
+                  {
+                    "value": ", mientras que la proporción disminuye en periodos más largos."
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Esto indica que sería útil implementar acciones para mantener el interés de los usuarios a largo plazo."
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Posibles iniciativas:"
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "programas de fidelización"
+                  }
+                ],
+                "listType": "bullet"
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "rutas de aprendizaje avanzadas"
+                  }
+                ],
+                "listType": "bullet"
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "certificaciones progresivas"
+                  }
+                ],
+                "listType": "bullet"
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "beneficios exclusivos para usuarios recurrentes"
+                  }
+                ],
+                "listType": "bullet"
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Estas estrategias podrían contribuir a "
+                  },
+                  {
+                    "value": "incrementar la permanencia de los usuarios en la plataforma",
+                    "textStyle": {
+                      "fontWeight": "bold"
+                    }
+                  },
+                  {
+                    "value": "."
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  }
+}

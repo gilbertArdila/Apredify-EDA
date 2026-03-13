@@ -1,0 +1,101 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.6.0/schema.json",
+  "name": "d329da1d886dc16e4a43",
+  "position": {
+    "x": 31.4214463840399,
+    "y": 610.47381546134659,
+    "z": 5,
+    "height": 285.785536159601,
+    "width": 368.07980049875312,
+    "tabOrder": 5
+  },
+  "visual": {
+    "visualType": "textbox",
+    "objects": {
+      "general": [
+        {
+          "properties": {
+            "paragraphs": [
+              {
+                "textRuns": [
+                  {
+                    "value": "El progreso en los cursos es el principal indicador de fidelización",
+                    "textStyle": {
+                      "fontWeight": "bold",
+                      "fontSize": "14pt"
+                    }
+                  }
+                ],
+                "horizontalTextAlignment": "center"
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Los resultados muestran que los usuarios "
+                  },
+                  {
+                    "value": "Premium presentan una tasa de completitud significativamente mayor (70.57%)",
+                    "textStyle": {
+                      "fontWeight": "bold"
+                    }
+                  },
+                  {
+                    "value": " que los usuarios del plan Básico (59.84%) y también una "
+                  },
+                  {
+                    "value": "mayor intención de renovación (71.94% frente a 58.59%)",
+                    "textStyle": {
+                      "fontWeight": "bold"
+                    }
+                  },
+                  {
+                    "value": "."
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Sin embargo, ambos grupos presentan "
+                  },
+                  {
+                    "value": "niveles de uso semanal prácticamente iguales",
+                    "textStyle": {
+                      "fontWeight": "bold"
+                    }
+                  },
+                  {
+                    "value": ". Esto sugiere que la fidelización de los usuarios no depende tanto del tiempo que pasan en la plataforma, sino del "
+                  },
+                  {
+                    "value": "progreso efectivo que logran en los cursos",
+                    "textStyle": {
+                      "fontWeight": "bold"
+                    }
+                  },
+                  {
+                    "value": "."
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Insight clave: ",
+                    "textStyle": {
+                      "fontWeight": "bold"
+                    }
+                  },
+                  {
+                    "value": "La finalización de cursos es un factor más determinante para la fidelización que el tiempo de uso de la plataforma."
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  }
+}

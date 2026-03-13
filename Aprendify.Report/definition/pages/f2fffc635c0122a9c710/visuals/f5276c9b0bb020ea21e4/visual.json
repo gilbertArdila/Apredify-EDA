@@ -1,0 +1,202 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.6.0/schema.json",
+  "name": "f5276c9b0bb020ea21e4",
+  "position": {
+    "x": 31.812865497076022,
+    "y": 167.48538011695905,
+    "z": 4,
+    "height": 400.4678362573099,
+    "width": 1234.1520467836256,
+    "tabOrder": 4
+  },
+  "visual": {
+    "visualType": "textbox",
+    "objects": {
+      "general": [
+        {
+          "properties": {
+            "paragraphs": [
+              {
+                "textRuns": [
+                  {
+                    "value": "Conclusión general del estudio — Comportamiento de usuarios en AprendiFy",
+                    "textStyle": {
+                      "fontWeight": "bold",
+                      "fontSize": "14pt"
+                    }
+                  }
+                ],
+                "horizontalTextAlignment": "center"
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "El análisis estadístico del comportamiento de los usuarios en la plataforma AprendiFy permite identificar patrones relevantes relacionados con la permanencia, el uso de la plataforma, el progreso en los cursos y el nivel de fidelización de los estudiantes."
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "En primer lugar, el análisis de la antigüedad de los usuarios muestra que la permanencia promedio en la plataforma es de aproximadamente "
+                  },
+                  {
+                    "value": "12 meses",
+                    "textStyle": {
+                      "fontWeight": "bold"
+                    }
+                  },
+                  {
+                    "value": ", con una concentración importante de usuarios entre "
+                  },
+                  {
+                    "value": "5 y 15 meses de antigüedad",
+                    "textStyle": {
+                      "fontWeight": "bold"
+                    }
+                  },
+                  {
+                    "value": ". Este resultado sugiere que AprendiFy logra atraer y mantener a los estudiantes activos durante su primer año de uso, aunque la proporción de usuarios con permanencias más prolongadas es menor, lo que representa una posible oportunidad para fortalecer estrategias de retención a largo plazo."
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "En relación con la actividad dentro de la plataforma, los resultados indican que los usuarios utilizan AprendiFy en promedio "
+                  },
+                  {
+                    "value": "4.95 horas por semana",
+                    "textStyle": {
+                      "fontWeight": "bold"
+                    }
+                  },
+                  {
+                    "value": ", con la mayor concentración de estudiantes entre "
+                  },
+                  {
+                    "value": "2 y 6 horas de uso semanal",
+                    "textStyle": {
+                      "fontWeight": "bold"
+                    }
+                  },
+                  {
+                    "value": ". Este patrón sugiere un nivel de interacción moderado, donde la mayoría de los usuarios mantiene una participación regular en las actividades de aprendizaje."
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "El análisis del progreso académico muestra que la "
+                  },
+                  {
+                    "value": "tasa promedio de completitud de cursos es de 63 %",
+                    "textStyle": {
+                      "fontWeight": "bold"
+                    }
+                  },
+                  {
+                    "value": ", con una concentración significativa de usuarios entre "
+                  },
+                  {
+                    "value": "50 % y 75 % de finalización",
+                    "textStyle": {
+                      "fontWeight": "bold"
+                    }
+                  },
+                  {
+                    "value": ". Esto indica que una proporción importante de estudiantes logra avanzar de manera consistente en los cursos que inicia, aunque también existe cierta variabilidad en los niveles de finalización."
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Asimismo, el estudio evidencia que los usuarios suelen iniciar en promedio "
+                  },
+                  {
+                    "value": "cuatro cursos dentro de la plataforma",
+                    "textStyle": {
+                      "fontWeight": "bold"
+                    }
+                  },
+                  {
+                    "value": ", lo que sugiere un comportamiento de exploración moderada de los contenidos disponibles. La relación observada entre la frecuencia de uso y el número de cursos iniciados indica que los usuarios que interactúan más con la plataforma tienden a explorar una mayor cantidad de actividades formativas."
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "El análisis de las relaciones entre variables muestra que tanto la "
+                  },
+                  {
+                    "value": "completitud de cursos",
+                    "textStyle": {
+                      "fontWeight": "bold"
+                    }
+                  },
+                  {
+                    "value": " como el "
+                  },
+                  {
+                    "value": "número de cursos iniciados",
+                    "textStyle": {
+                      "fontWeight": "bold"
+                    }
+                  },
+                  {
+                    "value": " presentan una relación positiva con la "
+                  },
+                  {
+                    "value": "frecuencia de uso",
+                    "textStyle": {
+                      "fontWeight": "bold"
+                    }
+                  },
+                  {
+                    "value": ", aunque estas asociaciones son de intensidad débil a moderada. Esto indica que, si bien un mayor nivel de interacción con la plataforma puede contribuir a mejorar el progreso en los cursos, también intervienen otros factores como la calidad del contenido, la motivación de los estudiantes o las características individuales de los usuarios."
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Finalmente, el análisis de fidelización revela que los usuarios con "
+                  },
+                  {
+                    "value": "suscripción Premium presentan mayores niveles de completitud de cursos y una mayor intención de renovación",
+                    "textStyle": {
+                      "fontWeight": "bold"
+                    }
+                  },
+                  {
+                    "value": " en comparación con los usuarios del plan Básico. A pesar de que ambos grupos muestran niveles similares de uso semanal de la plataforma, los usuarios Premium tienden a completar una mayor proporción de cursos y presentan una mayor probabilidad de continuar utilizando el servicio."
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "En conjunto, los resultados del estudio sugieren que "
+                  },
+                  {
+                    "value": "el compromiso de los usuarios con la plataforma está más relacionado con el progreso en los cursos y la experiencia de aprendizaje que con el tiempo de uso en sí mismo",
+                    "textStyle": {
+                      "fontWeight": "bold"
+                    }
+                  },
+                  {
+                    "value": ". Esto indica que estrategias orientadas a mejorar la calidad del contenido, la motivación de los estudiantes y el seguimiento del progreso podrían contribuir significativamente a fortalecer la retención y fidelización de los usuarios dentro de la plataforma AprendiFy."
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  }
+}

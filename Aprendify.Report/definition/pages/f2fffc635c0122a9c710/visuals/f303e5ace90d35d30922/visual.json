@@ -1,0 +1,108 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.6.0/schema.json",
+  "name": "f303e5ace90d35d30922",
+  "position": {
+    "x": 31.4214463840399,
+    "y": 962.09476309226932,
+    "z": 10,
+    "height": 237.90523690773068,
+    "width": 368.07980049875312,
+    "tabOrder": 10
+  },
+  "visual": {
+    "visualType": "textbox",
+    "objects": {
+      "general": [
+        {
+          "properties": {
+            "paragraphs": [
+              {
+                "textRuns": [
+                  {
+                    "value": "Implementar estrategias para aumentar la finalización de cursos",
+                    "textStyle": {
+                      "fontWeight": "bold"
+                    }
+                  }
+                ],
+                "horizontalTextAlignment": "center"
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Dado que la completitud está fuertemente asociada con la fidelización, la plataforma podría implementar mecanismos que ayuden a los estudiantes a "
+                  },
+                  {
+                    "value": "terminar los cursos que comienzan",
+                    "textStyle": {
+                      "fontWeight": "bold"
+                    }
+                  },
+                  {
+                    "value": "."
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Posibles acciones:"
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "recordatorios automáticos de progreso"
+                  }
+                ],
+                "listType": "bullet"
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "metas de aprendizaje semanales"
+                  }
+                ],
+                "listType": "bullet"
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "sistemas de logros o gamificación"
+                  }
+                ],
+                "listType": "bullet"
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "seguimiento personalizado del avance"
+                  }
+                ],
+                "listType": "bullet"
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Esto podría aumentar tanto la "
+                  },
+                  {
+                    "value": "satisfacción del usuario como la intención de renovación",
+                    "textStyle": {
+                      "fontWeight": "bold"
+                    }
+                  },
+                  {
+                    "value": "."
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  }
+}

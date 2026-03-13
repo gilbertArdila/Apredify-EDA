@@ -1,0 +1,123 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.6.0/schema.json",
+  "name": "f7ba07b34a5509346008",
+  "position": {
+    "x": 433.91521197007484,
+    "y": 962.09476309226932,
+    "z": 11,
+    "height": 237.90523690773068,
+    "width": 390.52369077306736,
+    "tabOrder": 11
+  },
+  "visual": {
+    "visualType": "textbox",
+    "objects": {
+      "general": [
+        {
+          "properties": {
+            "paragraphs": [
+              {
+                "textRuns": [
+                  {
+                    "value": "Mejorar la experiencia de aprendizaje y el engagement",
+                    "textStyle": {
+                      "fontWeight": "bold"
+                    }
+                  }
+                ],
+                "horizontalTextAlignment": "center"
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "La relación moderada entre el uso y la completitud sugiere que "
+                  },
+                  {
+                    "value": "no basta con que los usuarios entren a la plataforma",
+                    "textStyle": {
+                      "fontWeight": "bold"
+                    }
+                  },
+                  {
+                    "value": ", sino que la experiencia debe ser suficientemente atractiva para mantener su interés."
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Algunas estrategias posibles:"
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "mejorar la "
+                  },
+                  {
+                    "value": "interactividad de los contenidos",
+                    "textStyle": {
+                      "fontWeight": "bold"
+                    }
+                  }
+                ],
+                "listType": "bullet"
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "incorporar "
+                  },
+                  {
+                    "value": "evaluaciones dinámicas",
+                    "textStyle": {
+                      "fontWeight": "bold"
+                    }
+                  }
+                ],
+                "listType": "bullet"
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "ofrecer "
+                  },
+                  {
+                    "value": "recomendaciones personalizadas de cursos",
+                    "textStyle": {
+                      "fontWeight": "bold"
+                    }
+                  }
+                ],
+                "listType": "bullet"
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "optimizar la "
+                  },
+                  {
+                    "value": "navegación y facilidad de uso",
+                    "textStyle": {
+                      "fontWeight": "bold"
+                    }
+                  }
+                ],
+                "listType": "bullet"
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Esto podría aumentar el tiempo de interacción y mejorar el progreso de los estudiantes."
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.6.0/schema.json",
+  "name": "4f5b3aad0252cc95a7be",
+  "position": {
+    "x": 434.15204678362568,
+    "y": 610.05847953216369,
+    "z": 6,
+    "height": 313.4502923976608,
+    "width": 367.719298245614,
+    "tabOrder": 6
+  },
+  "visual": {
+    "visualType": "textbox",
+    "objects": {
+      "general": [
+        {
+          "properties": {
+            "paragraphs": [
+              {
+                "textRuns": [
+                  {
+                    "value": "La interacción con la plataforma favorece el aprendizaje, pero no lo explica completamente",
+                    "textStyle": {
+                      "fontWeight": "bold",
+                      "fontSize": "14pt"
+                    }
+                  }
+                ],
+                "horizontalTextAlignment": "center"
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "El análisis de correlación muestra que la "
+                  },
+                  {
+                    "value": "frecuencia de uso tiene una relación positiva con la completitud de cursos (r = 0.33)",
+                    "textStyle": {
+                      "fontWeight": "bold"
+                    }
+                  },
+                  {
+                    "value": " y con el "
+                  },
+                  {
+                    "value": "número de cursos iniciados",
+                    "textStyle": {
+                      "fontWeight": "bold"
+                    }
+                  },
+                  {
+                    "value": ", lo que indica que los usuarios que utilizan más la plataforma tienden a avanzar más en su proceso de aprendizaje."
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "No obstante, la intensidad de esta relación es moderada, lo que significa que el tiempo de uso explica "
+                  },
+                  {
+                    "value": "solo una parte del comportamiento de los estudiantes",
+                    "textStyle": {
+                      "fontWeight": "bold"
+                    }
+                  },
+                  {
+                    "value": "."
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Insight clave:",
+                    "textStyle": {
+                      "fontWeight": "bold"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "El uso de la plataforma influye en el progreso académico, pero otros factores como la calidad del contenido, la motivación del usuario o la experiencia de aprendizaje también juegan un papel importante."
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  }
+}
